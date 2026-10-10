@@ -1,0 +1,87 @@
+# Local project .gitignore
+# Keep credentials, personal account history, local media metadata, and machine-specific
+# settings out of the shared repository. Project source and public KPL knowledge remain tracked.
+#
+# 注意：.gitignore 的注释必须独占一行，行内 `#` 不是注释（会变成 pattern 的一部分）。
+
+# ── 凭证 / 登录态：绝不提交（提交即等于泄露账号）──
+# .auth/ = 抖音 Playwright 登录态(含 sessionid)
+# .auth-xhs/ = 小红书 Playwright 登录态(含 web_session 等)
+# .auth-linkedin/ = LinkedIn Playwright 登录态(含 li_at)
+# .auth-wechat-channels/ = 视频号助手 Playwright 登录态
+# .cheat-secrets.json = API key / cookie
+.auth/
+.auth-xhs/
+.auth-linkedin/
+.auth-wechat-channels/
+.cheat-secrets.json
+.cheat-state.json
+.env
+.env.*
+!.env.example
+
+# Local personal workspace: account performance, drafts, and machine-specific test data.
+STATUS.md
+WORKFLOW.md
+audience.md
+benchmark.md
+rubric-memo.md
+rubric_notes.md
+script_patterns.md
+predictions/
+videos/
+scripts/
+samples/
+docs/design-interview.md
+docs/first-acceptance-asset-map.json
+docs/first-acceptance-media-inventory.md
+docs/first-acceptance-plan.md
+docs/first-comparison-log.md
+docs/manual-baseline-checklist.md
+docs/cheat-on-content-review.md
+*asset-map*.json
+artifacts/
+media/
+assets/
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.mxf
+*.wav
+*.mp3
+*.m4a
+*.fcpxml
+*.drp
+knowledge/kpl/chronicle-import.md
+knowledge/kpl/data/chronicle_import.json
+knowledge/kpl/sources/kpl-chronicle-2016-2026.md
+knowledge/kpl/sources/kpl-chronicle-2016-2026-attachment-2026-10-06.md
+
+# ── 本地缓存与生成物 ──
+# .cheat-cache = 使用日志/热点去重缓存；.cheat-hooks = init 生成的 hook 副本；.debug = adapter 调试输出
+.cheat-cache/
+.cheat-hooks/
+.debug/
+
+# ── Claude Code 本地配置（含机器相关路径 / 个人 permission）──
+.claude/
+
+# ── Python（adapter / 工具脚本跑过留下）──
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.python-version
+
+# ── macOS / 编辑器 / 临时文件 ──
+.DS_Store
+._*
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.tmp
+*.log

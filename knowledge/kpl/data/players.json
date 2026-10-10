@@ -1,0 +1,4847 @@
+{
+  "schema_version": 1,
+  "players": [
+    {
+      "id": "adan",
+      "display_name": "阿蛋",
+      "aliases": [
+        {
+          "text": "李硕",
+          "source_ids": [
+            "s-daily-20250608"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "adan-identity",
+          "type": "identity",
+          "real_name": "李硕",
+          "summary": "阿蛋对应姓名李硕。",
+          "verified": true,
+          "source_ids": [
+            "s-daily-20250608"
+          ]
+        },
+        {
+          "id": "adan-2025-aggregate",
+          "type": "appearance",
+          "summary": "官方首周回顾记录首周团战击杀数TOP1，证明本届已实际参赛；不推定具体登场日期。",
+          "verified": true,
+          "source_ids": [
+            "s-daily-20250608"
+          ],
+          "season": "2025KPL夏季赛",
+          "event_year": 2025,
+          "date_precision": "year",
+          "observed_on": "2025-06-08",
+          "team_at_event": "苏州KSG",
+          "evidence_kind": "positive_season_played_statistics",
+          "competition_type": "KPL_league"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "verified",
+        "evidence_fact_ids": [
+          "adan-2025-aggregate"
+        ]
+      },
+      "unknowns": [
+        "完整生涯与转会链尚未补齐",
+        "当前战队与当前角色未核实",
+        "尚未建立完整别名表"
+      ]
+    },
+    {
+      "id": "adou",
+      "display_name": "阿豆",
+      "aliases": [
+        {
+          "text": "蒋涛",
+          "source_ids": [
+            "s-ts-20200613-anniversary"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "adou-identity",
+          "type": "identity",
+          "summary": "阿豆对应姓名蒋涛。",
+          "verified": true,
+          "source_ids": [
+            "s-ts-20200613-anniversary"
+          ],
+          "real_name": "蒋涛"
+        },
+        {
+          "id": "adou-20200613-final",
+          "type": "appearance",
+          "summary": "KPL官方六周年回顾将阿豆列为TS的2020 KPL春季赛冠军首发。",
+          "verified": true,
+          "source_ids": [
+            "s-ts-20200613-anniversary"
+          ],
+          "event_date": "2020-06-13",
+          "season": "2020 KPL春季赛",
+          "competition_type": "KPL_league",
+          "competition_name": "2020 KPL春季赛总决赛",
+          "match": "TS vs 成都AG超玩会",
+          "team_at_event": "TS",
+          "evidence_kind": "post_event_champion_starting_lineup",
+          "date_meaning": "官方六周年回顾所指比赛日"
+        },
+        {
+          "id": "adou-2020-kpl-title",
+          "type": "award",
+          "summary": "随TS获得2020 KPL春季赛冠军。",
+          "verified": true,
+          "source_ids": [
+            "s-ts-20200613-anniversary"
+          ],
+          "event_date": "2020-06-13",
+          "season": "2020 KPL春季赛",
+          "competition_type": "KPL_league",
+          "competition_name": "2020 KPL春季赛",
+          "team_at_event": "TS"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "verified",
+        "evidence_fact_ids": [
+          "adou-20200613-final"
+        ]
+      },
+      "unknowns": [
+        "其他生涯经历待补一手来源。"
+      ]
+    },
+    {
+      "id": "alan",
+      "display_name": "Alan",
+      "aliases": [
+        {
+          "text": "王添龙",
+          "source_ids": [
+            "s-kpl-2019-spring-champions-20260615"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "alan-20211109-weekly-highlight-lead",
+          "type": "appearance",
+          "summary": "媒体转载的KPL周精彩内容称Alan在该周重回赛场；原始官方战报尚未取得。",
+          "verified": false,
+          "source_ids": [
+            "s-chaofan-kpl-week-20211109"
+          ],
+          "event_year": 2021,
+          "season": "2021 KPL秋季赛常规赛第二轮第四周",
+          "competition_type": "KPL_league",
+          "competition_name": "2021 KPL秋季赛",
+          "date_meaning": "转载发布日期，不等同于选手实际出场日期"
+        },
+        {
+          "id": "alan-2019-spring-identity",
+          "type": "identity",
+          "summary": "Alan对应姓名王添龙。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-2019-spring-champions-20260615"
+          ],
+          "real_name": "王添龙"
+        },
+        {
+          "id": "alan-2019-spring-final-lineup",
+          "type": "appearance",
+          "summary": "KPL官方回顾将Alan列入eStarPro夺得2019 KPL春季赛冠军时的冠军首发。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-2019-spring-champions-20260615"
+          ],
+          "event_year": 2019,
+          "season": "2019 KPL春季赛总决赛",
+          "competition_type": "KPL_league",
+          "competition_name": "2019 KPL春季赛总决赛",
+          "match": "eStarPro vs RNG.M",
+          "team_at_event": "eStarPro",
+          "evidence_kind": "post_event_champion_starting_lineup",
+          "date_meaning": "官方回顾只支持赛季和总决赛年份，不填具体比赛日"
+        },
+        {
+          "id": "alan-2019-spring-title",
+          "type": "award",
+          "summary": "随eStarPro获得2019 KPL春季赛冠军。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-2019-spring-champions-20260615"
+          ],
+          "event_year": 2019,
+          "season": "2019 KPL春季赛",
+          "competition_type": "KPL_league",
+          "competition_name": "2019 KPL春季赛",
+          "team_at_event": "eStarPro"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "verified",
+        "evidence_fact_ids": [
+          "alan-2019-spring-final-lineup"
+        ]
+      },
+      "unknowns": []
+    },
+    {
+      "id": "anliang",
+      "display_name": "安凉",
+      "aliases": [
+        {
+          "text": "张雪龙",
+          "source_ids": [
+            "s-wb-2026-annual-finals-roster"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "anliang-identity-2026-annual-finals-roster",
+          "type": "identity",
+          "real_name": "张雪龙",
+          "summary": "2026年总决赛官方名单将选手安凉对应姓名列为张雪龙。",
+          "verified": true,
+          "source_ids": [
+            "s-wb-2026-annual-finals-roster"
+          ]
+        },
+        {
+          "id": "anliang-2026-annual-finals-roster",
+          "type": "roster_listing",
+          "summary": "官方资料确认安凉被列入北京WB2026年KPL年度总决赛参赛名单。",
+          "verified": true,
+          "source_ids": [
+            "s-wb-2026-annual-finals-roster"
+          ],
+          "event_date": "2026-09-21",
+          "season": "2026 KPL年度总决赛",
+          "competition_type": "KPL_annual_finals",
+          "competition_name": "2026 KPL年度总决赛",
+          "team_at_event": "北京WB",
+          "roster_kind": "annual_finals_roster",
+          "date_meaning": "官方名单或租借公告发布日期；列入名单不代表实际登场。"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "pending",
+        "evidence_fact_ids": []
+      },
+      "unknowns": [
+        "目前只有2026年度总决赛名单证据；KPL正赛实际登场仍需独立核实。"
+      ]
+    },
+    {
+      "id": "cat",
+      "display_name": "Cat",
+      "aliases": [
+        {
+          "text": "陈正正",
+          "source_ids": [
+            "s-cat-20260917"
+          ]
+        },
+        {
+          "text": "猫神",
+          "source_ids": [
+            "s-memories-20261002"
+          ]
+        },
+        {
+          "text": "陈正CatGod",
+          "source_ids": [
+            "s-memories-20261002"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "cat-identity",
+          "type": "identity",
+          "real_name": "陈正正",
+          "summary": "Cat对应姓名陈正正。",
+          "verified": true,
+          "source_ids": [
+            "s-cat-20260917"
+          ]
+        },
+        {
+          "id": "cat-20160917-debut",
+          "type": "debut",
+          "summary": "2026年9月17日俱乐部十周年公告与本人原帖共同支持KPL首秀为2016年9月17日。",
+          "verified": true,
+          "source_ids": [
+            "s-cat-20260917"
+          ],
+          "event_date": "2016-09-17",
+          "date_basis": "官方及本人十周年回顾",
+          "competition_type": "KPL_league"
+        },
+        {
+          "id": "cat-20261002-memory",
+          "type": "award",
+          "summary": "在官方十周年评选中被列为2019年度记忆人物；该评选涵盖联赛与杯赛。",
+          "verified": true,
+          "source_ids": [
+            "s-memories-20261002"
+          ],
+          "event_date": "2026-10-02",
+          "represented_year": 2019,
+          "event_name": "KPL十周年年度记忆人物评选"
+        },
+        {
+          "id": "cat-2017-spring-final-lineup",
+          "type": "appearance",
+          "summary": "KPL官方回顾将Cat列入QGhappy夺得2017 KPL春季赛冠军时的冠军首发信息；回顾没有提供具体比赛日。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-historical-finals-2017-2018"
+          ],
+          "event_year": 2017,
+          "season": "2017 KPL春季赛总决赛",
+          "competition_type": "KPL_league",
+          "competition_name": "2017 KPL春季赛总决赛",
+          "match": "QGhappy vs AG超玩会",
+          "team_at_event": "QGhappy",
+          "evidence_kind": "post_event_champion_starting_lineup",
+          "date_meaning": "官方回顾只支持赛季和总决赛年份，不填具体比赛日"
+        },
+        {
+          "id": "cat-2019-spring-final-lineup",
+          "type": "appearance",
+          "summary": "KPL官方回顾将Cat（陈正正）列入eStarPro夺得2019 KPL春季赛冠军时的冠军首发。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-2019-spring-champions-20260615"
+          ],
+          "event_year": 2019,
+          "season": "2019 KPL春季赛总决赛",
+          "competition_type": "KPL_league",
+          "competition_name": "2019 KPL春季赛总决赛",
+          "match": "eStarPro vs RNG.M",
+          "team_at_event": "eStarPro",
+          "evidence_kind": "post_event_champion_starting_lineup",
+          "date_meaning": "官方回顾只支持赛季和总决赛年份，不填具体比赛日"
+        },
+        {
+          "id": "cat-2019-spring-final-mvp",
+          "type": "award",
+          "summary": "获得2019 KPL春季赛总决赛MVP；eStarPro击败RNG.M夺冠。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-2019-spring-champions-20260615"
+          ],
+          "event_year": 2019,
+          "season": "2019 KPL春季赛",
+          "competition_type": "KPL_league",
+          "competition_name": "2019 KPL春季赛总决赛",
+          "team_at_event": "eStarPro"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "verified",
+        "evidence_fact_ids": [
+          "cat-20160917-debut",
+          "cat-2017-spring-final-lineup",
+          "cat-2019-spring-final-lineup"
+        ]
+      },
+      "unknowns": [
+        "完整生涯与转会链尚未补齐",
+        "当前战队与当前角色未核实",
+        "尚未建立完整别名表"
+      ]
+    },
+    {
+      "id": "changsheng",
+      "display_name": "长生",
+      "aliases": [
+        {
+          "text": "谢承峻",
+          "source_ids": [
+            "s-2024-nominees"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "changsheng-identity",
+          "type": "identity",
+          "real_name": "谢承峻",
+          "summary": "长生对应姓名谢承峻。",
+          "verified": true,
+          "source_ids": [
+            "s-2024-nominees"
+          ]
+        },
+        {
+          "id": "changsheng-2024-nomination",
+          "type": "award",
+          "summary": "入围2024年度最佳阵容中路候选。",
+          "verified": true,
+          "source_ids": [
+            "s-2024-nominees"
+          ],
+          "event_date": "2024-12-26",
+          "role_at_nomination": "中路",
+          "nomination_only": true
+        },
+        {
+          "id": "changsheng-2025-aggregate",
+          "type": "appearance",
+          "summary": "官方首周回顾记录首周团战伤害TOP1，证明本届已实际参赛；不推定具体登场日期。",
+          "verified": true,
+          "source_ids": [
+            "s-daily-20250608"
+          ],
+          "season": "2025KPL夏季赛",
+          "event_year": 2025,
+          "date_precision": "year",
+          "observed_on": "2025-06-08",
+          "team_at_event": "成都AG超玩会",
+          "evidence_kind": "positive_season_played_statistics",
+          "competition_type": "KPL_league"
+        },
+        {
+          "id": "changsheng-20261002-memory",
+          "type": "award",
+          "summary": "在官方十周年评选中被列为2024年度记忆人物；该评选涵盖联赛与杯赛。",
+          "verified": true,
+          "source_ids": [
+            "s-memories-20261002"
+          ],
+          "event_date": "2026-10-02",
+          "represented_year": 2024,
+          "event_name": "KPL十周年年度记忆人物评选"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "verified",
+        "evidence_fact_ids": [
+          "changsheng-2025-aggregate"
+        ]
+      },
+      "unknowns": [
+        "完整生涯与转会链尚未补齐",
+        "当前战队与当前角色未核实",
+        "尚未建立完整别名表"
+      ]
+    },
+    {
+      "id": "chenfeng",
+      "display_name": "晨风",
+      "aliases": [
+        {
+          "text": "樊首谦",
+          "source_ids": [
+            "s-2024-nominees"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "chenfeng-identity",
+          "type": "identity",
+          "real_name": "樊首谦",
+          "summary": "晨风对应姓名樊首谦。",
+          "verified": true,
+          "source_ids": [
+            "s-2024-nominees"
+          ]
+        },
+        {
+          "id": "chenfeng-2024-nomination",
+          "type": "award",
+          "summary": "入围2024年度最佳阵容中路候选。",
+          "verified": true,
+          "source_ids": [
+            "s-2024-nominees"
+          ],
+          "event_date": "2024-12-26",
+          "role_at_nomination": "中路",
+          "nomination_only": true
+        }
+      ],
+      "kpl_appearance": {
+        "status": "pending",
+        "evidence_fact_ids": []
+      },
+      "unknowns": [
+        "完整生涯与转会链尚未补齐",
+        "当前战队与当前角色未核实",
+        "尚未建立完整别名表"
+      ]
+    },
+    {
+      "id": "chenxia",
+      "display_name": "尘夏",
+      "aliases": [
+        {
+          "text": "王庆",
+          "source_ids": [
+            "s-kpl-historical-finals-2017-2018"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "chenxia-identity",
+          "type": "identity",
+          "summary": "尘夏对应姓名王庆。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-historical-finals-2017-2018"
+          ],
+          "real_name": "王庆"
+        },
+        {
+          "id": "chenxia-2018-spring-final-lineup",
+          "type": "appearance",
+          "summary": "KPL官方回顾将尘夏列入Hero久竞夺得2018 KPL春季赛冠军时的冠军首发信息；回顾没有提供具体比赛日。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-historical-finals-2017-2018"
+          ],
+          "event_year": 2018,
+          "season": "2018 KPL春季赛总决赛",
+          "competition_type": "KPL_league",
+          "competition_name": "2018 KPL春季赛总决赛",
+          "match": "Hero久竞 vs EDG.M",
+          "team_at_event": "Hero久竞",
+          "evidence_kind": "post_event_champion_starting_lineup",
+          "date_meaning": "官方回顾只支持赛季和总决赛年份，不填具体比赛日"
+        },
+        {
+          "id": "chenxia-2018-spring-title",
+          "type": "award",
+          "summary": "KPL官方回顾将尘夏列入Hero久竞的2018 KPL春季赛冠军首发。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-historical-finals-2017-2018"
+          ],
+          "event_year": 2018,
+          "season": "2018 KPL春季赛",
+          "competition_type": "KPL_league",
+          "competition_name": "2018 KPL春季赛",
+          "team_at_event": "Hero久竞"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "verified",
+        "evidence_fact_ids": [
+          "chenxia-2018-spring-final-lineup"
+        ]
+      },
+      "unknowns": []
+    },
+    {
+      "id": "chuxin",
+      "display_name": "最初",
+      "aliases": [
+        {
+          "text": "最初ovo",
+          "source_ids": [
+            "s-kpl-historical-finals-2017-2018"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "chuxin-2018-spring-final-lineup",
+          "type": "appearance",
+          "summary": "KPL官方回顾将最初列入Hero久竞夺得2018 KPL春季赛冠军时的冠军首发信息；回顾没有提供具体比赛日。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-historical-finals-2017-2018"
+          ],
+          "event_year": 2018,
+          "season": "2018 KPL春季赛总决赛",
+          "competition_type": "KPL_league",
+          "competition_name": "2018 KPL春季赛总决赛",
+          "match": "Hero久竞 vs EDG.M",
+          "team_at_event": "Hero久竞",
+          "evidence_kind": "post_event_champion_starting_lineup",
+          "date_meaning": "官方回顾只支持赛季和总决赛年份，不填具体比赛日"
+        },
+        {
+          "id": "chuxin-2018-spring-title",
+          "type": "award",
+          "summary": "KPL官方回顾将最初列入Hero久竞的2018 KPL春季赛冠军首发。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-historical-finals-2017-2018"
+          ],
+          "event_year": 2018,
+          "season": "2018 KPL春季赛",
+          "competition_type": "KPL_league",
+          "competition_name": "2018 KPL春季赛",
+          "team_at_event": "Hero久竞"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "verified",
+        "evidence_fact_ids": [
+          "chuxin-2018-spring-final-lineup"
+        ]
+      },
+      "unknowns": [
+        "2026-07-08 KPL官方回顾的最初姓名字段被截断，完整实名待一手来源补证。"
+      ]
+    },
+    {
+      "id": "daozai",
+      "display_name": "道崽",
+      "aliases": [
+        {
+          "text": "杨凯博",
+          "source_ids": [
+            "s-2024-nominees"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "daozai-identity",
+          "type": "identity",
+          "real_name": "杨凯博",
+          "summary": "道崽对应姓名杨凯博。",
+          "verified": true,
+          "source_ids": [
+            "s-2024-nominees"
+          ]
+        },
+        {
+          "id": "daozai-2024-nomination",
+          "type": "award",
+          "summary": "入围2024年度最佳阵容发育路候选。",
+          "verified": true,
+          "source_ids": [
+            "s-2024-nominees"
+          ],
+          "event_date": "2024-12-26",
+          "role_at_nomination": "发育路",
+          "nomination_only": true
+        },
+        {
+          "id": "daozai-20241006-annual-final-w1d5-g3",
+          "type": "appearance",
+          "summary": "KPL官方战报记录道崽在第三局使用敖隐，5分钟趁上路拉扯先推下一塔，13分30秒强冲高地秒掉西施。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-20241006-annual-finals-w1d5-g3"
+          ],
+          "event_date": "2024-10-06",
+          "season": "2024 KPL年度总决赛擂台赛",
+          "competition_type": "KPL_annual_finals",
+          "competition_name": "2024 KPL年度总决赛擂台赛",
+          "match": "重庆狼队 2:1 杭州LGD.NBW（第三局）",
+          "team_at_event": "重庆狼队",
+          "hero_at_event": "敖隐"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "verified",
+        "evidence_fact_ids": [
+          "daozai-20241006-annual-final-w1d5-g3"
+        ]
+      },
+      "unknowns": [
+        "完整生涯与转会链尚未补齐",
+        "当前战队与当前角色未核实",
+        "尚未建立完整别名表"
+      ]
+    },
+    {
+      "id": "dashuai",
+      "display_name": "大帅",
+      "aliases": [
+        {
+          "text": "孟家俊",
+          "source_ids": [
+            "s-2024-nominees"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "dashuai-identity",
+          "type": "identity",
+          "real_name": "孟家俊",
+          "summary": "大帅对应姓名孟家俊。",
+          "verified": true,
+          "source_ids": [
+            "s-2024-nominees"
+          ]
+        },
+        {
+          "id": "dashuai-2024-nomination",
+          "type": "award",
+          "summary": "入围2024年度最佳阵容游走候选。",
+          "verified": true,
+          "source_ids": [
+            "s-2024-nominees"
+          ],
+          "event_date": "2024-12-26",
+          "role_at_nomination": "游走",
+          "nomination_only": true
+        },
+        {
+          "id": "dashuai-2024-spring-regular-stats",
+          "type": "appearance",
+          "summary": "KPL官方2024春季赛常规赛统计列其MVP次数11次，并给出S组游走位数据；统计范围含卡位赛，证明其实际参加该届联赛。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-2024-spring-candidate-stats"
+          ],
+          "event_year": 2024,
+          "season": "2024 KPL春季赛常规赛（含卡位赛）",
+          "competition_type": "KPL_league",
+          "competition_name": "2024 KPL春季赛",
+          "stat_scope": "KPL官方2024春季赛常规赛候选与数据公告"
+        },
+        {
+          "id": "dashuai-20240510-spring-playoff-d9-g4",
+          "type": "appearance",
+          "summary": "KPL官方战报记录大帅在第四局使用鲁班大师，4分钟以大招拉回狄仁杰并配合队友击杀。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-20240510-spring-playoff-d9-g4"
+          ],
+          "event_date": "2024-05-10",
+          "season": "2024 KPL春季赛季后赛",
+          "competition_type": "KPL_league",
+          "competition_name": "2024 KPL春季赛季后赛",
+          "match": "成都AG超玩会 3:1 重庆狼队（第四局）",
+          "team_at_event": "成都AG超玩会",
+          "hero_at_event": "鲁班大师"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "verified",
+        "evidence_fact_ids": [
+          "dashuai-2024-spring-regular-stats",
+          "dashuai-20240510-spring-playoff-d9-g4"
+        ]
+      },
+      "unknowns": [
+        "完整生涯与转会链尚未补齐",
+        "当前战队与当前角色未核实",
+        "尚未建立完整别名表"
+      ]
+    },
+    {
+      "id": "dongfang",
+      "display_name": "东方",
+      "aliases": [],
+      "facts": [
+        {
+          "id": "dongfang-20230402-r2w4d5-g2",
+          "type": "appearance",
+          "summary": "以花木兰在暗影主宰团战中瞬秒孙尚香，随后追击完成三杀。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-20230402-r2w4d5-g2"
+          ],
+          "event_date": "2023-04-02",
+          "season": "2023 KPL春季赛常规赛第二轮W4D5",
+          "competition_type": "KPL_league",
+          "competition_name": "2023 KPL春季赛",
+          "match": "南京Hero久竞 vs 武汉eStarPro",
+          "game": 2,
+          "team_at_event": "南京Hero久竞",
+          "hero_at_event": "花木兰"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "verified",
+        "evidence_fact_ids": [
+          "dongfang-20230402-r2w4d5-g2"
+        ]
+      },
+      "unknowns": [
+        "真实姓名和更早生涯节点待一手来源补证。"
+      ]
+    },
+    {
+      "id": "fanfan",
+      "display_name": "帆帆",
+      "aliases": [
+        {
+          "text": "杨帆",
+          "source_ids": [
+            "s-ttg-fanfan-20250529"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fanfan-20220903-final-g1",
+          "type": "appearance",
+          "summary": "约6分半以张飞在中路控制三名对手，队友随后越塔发起团战。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-20220903-final-g1"
+          ],
+          "event_date": "2022-09-03",
+          "season": "2022 KPL夏季赛总决赛",
+          "competition_type": "KPL_league",
+          "competition_name": "2022 KPL夏季赛总决赛",
+          "match": "武汉eStarPro vs 重庆狼队",
+          "game": 1,
+          "team_at_event": "重庆狼队",
+          "hero_at_event": "张飞"
+        },
+        {
+          "id": "fanfan-identity",
+          "type": "identity",
+          "summary": "帆帆对应姓名杨帆。",
+          "verified": true,
+          "source_ids": [
+            "s-ttg-fanfan-20250529"
+          ],
+          "real_name": "杨帆"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "verified",
+        "evidence_fact_ids": [
+          "fanfan-20220903-final-g1"
+        ]
+      },
+      "unknowns": [
+        "本名或其他生涯节点待一手来源补证。"
+      ]
+    },
+    {
+      "id": "fengxiao",
+      "display_name": "风箫",
+      "aliases": [
+        {
+          "text": "于翔任",
+          "source_ids": [
+            "s-wolves-fengxiao-20250529"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fengxiao-identity",
+          "type": "identity",
+          "summary": "风箫对应姓名于翔任。",
+          "verified": true,
+          "source_ids": [
+            "s-wolves-fengxiao-20250529"
+          ],
+          "real_name": "于翔任"
+        },
+        {
+          "id": "fengxiao-2023-kpl-debut",
+          "type": "debut",
+          "summary": "重庆狼队官方回顾确认风箫于2023年登上KPL舞台；具体首秀日期待补。",
+          "verified": true,
+          "source_ids": [
+            "s-wolves-fengxiao-20250529"
+          ],
+          "event_year": 2023,
+          "season": "2023 KPL赛季",
+          "competition_type": "KPL_league",
+          "competition_name": "KPL联赛",
+          "date_meaning": "官方确认的登场年份，不是具体日期"
+        },
+        {
+          "id": "fengxiao-2023-summer-title",
+          "type": "award",
+          "summary": "重庆狼队官方确认风箫于2023年登上KPL舞台，并在其效力广州TTG期间获得2023 KPL夏季赛冠军。",
+          "verified": true,
+          "source_ids": [
+            "s-wolves-fengxiao-20250529"
+          ],
+          "event_year": 2023,
+          "season": "2023 KPL夏季赛",
+          "competition_type": "KPL_league",
+          "competition_name": "2023 KPL夏季赛",
+          "team_at_event": "广州TTG"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "verified",
+        "evidence_fact_ids": [
+          "fengxiao-2023-kpl-debut"
+        ]
+      },
+      "unknowns": [
+        "更早队伍和转会的完整时间线待补。"
+      ]
+    },
+    {
+      "id": "fly",
+      "display_name": "Fly",
+      "aliases": [
+        {
+          "text": "彭云飞",
+          "source_ids": [
+            "s-2024-nominees",
+            "s-wolves-2026-annual-finals-fly-loan"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fly-identity",
+          "type": "identity",
+          "real_name": "彭云飞",
+          "summary": "Fly对应姓名彭云飞。",
+          "verified": true,
+          "source_ids": [
+            "s-2024-nominees"
+          ]
+        },
+        {
+          "id": "fly-2024-nomination",
+          "type": "award",
+          "summary": "入围2024年度最佳阵容对抗路候选。",
+          "verified": true,
+          "source_ids": [
+            "s-2024-nominees"
+          ],
+          "event_date": "2024-12-26",
+          "role_at_nomination": "对抗路",
+          "nomination_only": true
+        },
+        {
+          "id": "fly-20250221-g2",
+          "type": "appearance",
+          "summary": "以关羽获得该局MVP；官方记录约14分半绕后控制三名对手。",
+          "verified": true,
+          "source_ids": [
+            "s-rw-ag-20250221"
+          ],
+          "season": "2025KPL春季赛",
+          "event_date": "2025-02-21",
+          "match": "济南RW侠 vs 成都AG超玩会",
+          "game": 2,
+          "team_at_event": "济南RW侠",
+          "hero_at_event": "关羽",
+          "game_clock_hint": "约14分半",
+          "competition_type": "KPL_league"
+        },
+        {
+          "id": "fly-2017-spring",
+          "type": "appearance",
+          "summary": "官方回顾确认2017年KPL春季赛首秀，并获得该届冠军及决赛MVP。",
+          "verified": true,
+          "source_ids": [
+            "s-fly-20250323"
+          ],
+          "season": "2017KPL春季赛",
+          "event_year": 2017,
+          "date_precision": "season",
+          "exact_debut_date_known": false,
+          "competition_type": "KPL_league"
+        },
+        {
+          "id": "fly-20250323-review",
+          "type": "career_event",
+          "summary": "官方八周年回顾提及转会至济南RW侠；具体转会日期在此记录中尚未核实。",
+          "verified": true,
+          "source_ids": [
+            "s-fly-20250323"
+          ],
+          "event_date": "2025-03-23",
+          "date_meaning": "回顾公告发布日期，不是转会日期"
+        },
+        {
+          "id": "fly-20261002-memory",
+          "type": "award",
+          "summary": "在官方十周年评选中被列为2017年度记忆人物；该评选涵盖联赛与杯赛。",
+          "verified": true,
+          "source_ids": [
+            "s-memories-20261002"
+          ],
+          "event_date": "2026-10-02",
+          "represented_year": 2017,
+          "event_name": "KPL十周年年度记忆人物评选"
+        },
+        {
+          "id": "fly-20220903-final-g1",
+          "type": "appearance",
+          "summary": "使用吕布获得2022 KPL夏季赛总决赛第一局MVP。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-20220903-final-g1"
+          ],
+          "event_date": "2022-09-03",
+          "season": "2022 KPL夏季赛总决赛",
+          "competition_type": "KPL_league",
+          "competition_name": "2022 KPL夏季赛总决赛",
+          "match": "武汉eStarPro vs 重庆狼队",
+          "game": 1,
+          "team_at_event": "重庆狼队",
+          "hero_at_event": "吕布"
+        },
+        {
+          "id": "fly-20200104-winter-cup-fmvp",
+          "type": "award",
+          "summary": "随QGhappy获得冬季冠军杯冠军，并取得个人第二个FMVP皮肤。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-cup-history-20250108"
+          ],
+          "event_date": "2020-01-04",
+          "competition_type": "KPL_cup",
+          "competition_name": "王者荣耀冬季冠军杯"
+        },
+        {
+          "id": "fly-2017-spring-final-lineup",
+          "type": "appearance",
+          "summary": "KPL官方回顾将Fly列入QGhappy夺得2017 KPL春季赛冠军时的冠军首发信息；回顾没有提供具体比赛日。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-historical-finals-2017-2018"
+          ],
+          "event_year": 2017,
+          "season": "2017 KPL春季赛总决赛",
+          "competition_type": "KPL_league",
+          "competition_name": "2017 KPL春季赛总决赛",
+          "match": "QGhappy vs AG超玩会",
+          "team_at_event": "QGhappy",
+          "evidence_kind": "post_event_champion_starting_lineup",
+          "date_meaning": "官方回顾只支持赛季和总决赛年份，不填具体比赛日"
+        },
+        {
+          "id": "fly-2026-annual-finals-roster",
+          "type": "roster_listing",
+          "summary": "官方资料确认Fly被列入重庆狼队2026年KPL年度总决赛参赛名单。",
+          "verified": true,
+          "source_ids": [
+            "s-wolves-2026-annual-finals-fly-loan"
+          ],
+          "event_date": "2026-09-20",
+          "season": "2026 KPL年度总决赛",
+          "competition_type": "KPL_annual_finals",
+          "competition_name": "2026 KPL年度总决赛",
+          "team_at_event": "重庆狼队",
+          "roster_kind": "annual_finals_roster",
+          "date_meaning": "官方名单或租借公告发布日期；列入名单不代表实际登场。"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "verified",
+        "evidence_fact_ids": [
+          "fly-20250221-g2",
+          "fly-2017-spring",
+          "fly-20220903-final-g1",
+          "fly-2017-spring-final-lineup"
+        ]
+      },
+      "unknowns": [
+        "完整生涯与转会链尚未补齐",
+        "当前战队与当前角色未核实",
+        "尚未建立完整别名表"
+      ]
+    },
+    {
+      "id": "guiqi",
+      "display_name": "归期",
+      "aliases": [
+        {
+          "text": "双小钧",
+          "source_ids": [
+            "s-2024-nominees"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "guiqi-identity",
+          "type": "identity",
+          "real_name": "双小钧",
+          "summary": "归期对应姓名双小钧。",
+          "verified": true,
+          "source_ids": [
+            "s-2024-nominees"
+          ]
+        },
+        {
+          "id": "guiqi-2024-nomination",
+          "type": "award",
+          "summary": "入围2024年度最佳阵容对抗路候选。",
+          "verified": true,
+          "source_ids": [
+            "s-2024-nominees"
+          ],
+          "event_date": "2024-12-26",
+          "role_at_nomination": "对抗路",
+          "nomination_only": true
+        },
+        {
+          "id": "guiqi-2025-summer-200-win-milestone",
+          "type": "appearance",
+          "summary": "KPL官方记录归期（双小钧）在2025 KPL夏季赛常规赛第一轮重庆狼队对北京JDG第三局使用夏洛特，达成KPL赛场第200胜局里程碑。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-2025-summer-milestone-timeline"
+          ],
+          "event_year": 2025,
+          "season": "2025 KPL夏季赛常规赛第一轮",
+          "competition_type": "KPL_league",
+          "competition_name": "2025 KPL夏季赛",
+          "match": "重庆狼队 vs 北京JDG",
+          "game": 3,
+          "team_at_event": "重庆狼队",
+          "hero_at_event": "夏洛特",
+          "milestone_at_event": "KPL赛场第200胜局",
+          "date_meaning": "官方时间线显示发布于6月21日；因单条回顾未独立打开，事件仅精确到赛季和轮次"
+        },
+        {
+          "id": "guiqi-20240510-spring-playoff-d9-g4",
+          "type": "appearance",
+          "summary": "KPL官方战报记录归期在第四局使用狂铁，4分50秒闪现进场一换二并拿下双杀。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-20240510-spring-playoff-d9-g4"
+          ],
+          "event_date": "2024-05-10",
+          "season": "2024 KPL春季赛季后赛",
+          "competition_type": "KPL_league",
+          "competition_name": "2024 KPL春季赛季后赛",
+          "match": "成都AG超玩会 3:1 重庆狼队（第四局）",
+          "team_at_event": "重庆狼队",
+          "hero_at_event": "狂铁"
+        },
+        {
+          "id": "guiqi-20241006-annual-final-w1d5-g3",
+          "type": "appearance",
+          "summary": "KPL官方战报记录归期在第三局使用夏洛特，7分30秒突入后排击杀残血大司命。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-20241006-annual-finals-w1d5-g3"
+          ],
+          "event_date": "2024-10-06",
+          "season": "2024 KPL年度总决赛擂台赛",
+          "competition_type": "KPL_annual_finals",
+          "competition_name": "2024 KPL年度总决赛擂台赛",
+          "match": "重庆狼队 2:1 杭州LGD.NBW（第三局）",
+          "team_at_event": "重庆狼队",
+          "hero_at_event": "夏洛特"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "verified",
+        "evidence_fact_ids": [
+          "guiqi-2025-summer-200-win-milestone",
+          "guiqi-20240510-spring-playoff-d9-g4",
+          "guiqi-20241006-annual-final-w1d5-g3"
+        ]
+      },
+      "unknowns": [
+        "完整生涯与转会链尚未补齐",
+        "当前战队与当前角色未核实",
+        "尚未建立完整别名表"
+      ]
+    },
+    {
+      "id": "huahai",
+      "display_name": "花海",
+      "aliases": [
+        {
+          "text": "罗思源",
+          "source_ids": [
+            "s-2024-nominees"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "huahai-identity",
+          "type": "identity",
+          "real_name": "罗思源",
+          "summary": "花海对应姓名罗思源。",
+          "verified": true,
+          "source_ids": [
+            "s-2024-nominees"
+          ]
+        },
+        {
+          "id": "huahai-2024-nomination",
+          "type": "award",
+          "summary": "入围2024年度最佳阵容打野候选。",
+          "verified": true,
+          "source_ids": [
+            "s-2024-nominees"
+          ],
+          "event_date": "2024-12-26",
+          "role_at_nomination": "打野",
+          "nomination_only": true
+        },
+        {
+          "id": "huahai-20190307-debut",
+          "type": "debut",
+          "summary": "俱乐部六周年公告明确KPL登场纪念区间始于2019年3月7日。",
+          "verified": true,
+          "source_ids": [
+            "s-huahai-debut"
+          ],
+          "event_date": "2019-03-07",
+          "date_basis": "俱乐部官方周年公告",
+          "competition_type": "KPL_league"
+        },
+        {
+          "id": "huahai-20240331-stats",
+          "type": "appearance",
+          "summary": "出现在官方当天赛果统计，记录为当日分均经济TOP1；具体对局待补。",
+          "verified": true,
+          "source_ids": [
+            "s-daily-20240331"
+          ],
+          "season": "2024KPL春季赛",
+          "event_date": "2024-03-31",
+          "team_at_event": "武汉eStarPro",
+          "evidence_kind": "daily_played_statistics",
+          "competition_type": "KPL_league"
+        },
+        {
+          "id": "huahai-20261002-memory",
+          "type": "award",
+          "summary": "在官方十周年评选中被列为2022年度记忆人物；该评选涵盖联赛与杯赛。",
+          "verified": true,
+          "source_ids": [
+            "s-memories-20261002"
+          ],
+          "event_date": "2026-10-02",
+          "represented_year": 2022,
+          "event_name": "KPL十周年年度记忆人物评选"
+        },
+        {
+          "id": "huahai-20220903-final-g1",
+          "type": "appearance",
+          "summary": "约11分半以澜突入后排击杀公孙离。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-20220903-final-g1"
+          ],
+          "event_date": "2022-09-03",
+          "season": "2022 KPL夏季赛总决赛",
+          "competition_type": "KPL_league",
+          "competition_name": "2022 KPL夏季赛总决赛",
+          "match": "武汉eStarPro vs 重庆狼队",
+          "game": 1,
+          "team_at_event": "武汉eStarPro",
+          "hero_at_event": "澜"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "verified",
+        "evidence_fact_ids": [
+          "huahai-20190307-debut",
+          "huahai-20240331-stats",
+          "huahai-20220903-final-g1"
+        ]
+      },
+      "unknowns": [
+        "完整生涯与转会链尚未补齐",
+        "当前战队与当前角色未核实",
+        "尚未建立完整别名表"
+      ]
+    },
+    {
+      "id": "huayuan",
+      "display_name": "花缘",
+      "aliases": [
+        {
+          "text": "谭锦威",
+          "source_ids": [
+            "s-ag-drg-20250629",
+            "s-jdg-2026-annual-finals-huayuan-loan"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "huayuan-identity",
+          "type": "identity",
+          "real_name": "谭锦威",
+          "summary": "花缘对应姓名谭锦威。",
+          "verified": true,
+          "source_ids": [
+            "s-ag-drg-20250629"
+          ]
+        },
+        {
+          "id": "huayuan-20250629-g3",
+          "type": "appearance",
+          "summary": "第三局约3分钟以达摩击杀海月。",
+          "verified": true,
+          "source_ids": [
+            "s-ag-drg-20250629"
+          ],
+          "season": "2025KPL夏季赛",
+          "event_date": "2025-06-29",
+          "match": "成都AG超玩会 vs 佛山DRG",
+          "game": 3,
+          "team_at_event": "佛山DRG",
+          "hero_at_event": "达摩",
+          "game_clock_hint": "约3分钟",
+          "competition_type": "KPL_league"
+        },
+        {
+          "id": "huayuan-2026-annual-finals-roster",
+          "type": "roster_listing",
+          "summary": "官方资料确认花缘被列入北京JDG2026年KPL年度总决赛参赛名单。",
+          "verified": true,
+          "source_ids": [
+            "s-jdg-2026-annual-finals-huayuan-loan"
+          ],
+          "event_date": "2026-09-20",
+          "season": "2026 KPL年度总决赛",
+          "competition_type": "KPL_annual_finals",
+          "competition_name": "2026 KPL年度总决赛",
+          "team_at_event": "北京JDG",
+          "roster_kind": "annual_finals_roster",
+          "date_meaning": "官方名单或租借公告发布日期；列入名单不代表实际登场。"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "verified",
+        "evidence_fact_ids": [
+          "huayuan-20250629-g3"
+        ]
+      },
+      "unknowns": [
+        "完整生涯与转会链尚未补齐",
+        "当前战队与当前角色未核实",
+        "尚未建立完整别名表"
+      ]
+    },
+    {
+      "id": "hurt",
+      "display_name": "Hurt",
+      "aliases": [
+        {
+          "text": "夏圣钦",
+          "source_ids": [
+            "s-kpl-historical-finals-2017-2018"
+          ]
+        },
+        {
+          "text": "刺痛",
+          "source_ids": [
+            "s-kpl-historical-finals-2017-2018"
+          ]
+        },
+        {
+          "text": "刺痛Hurt",
+          "source_ids": [
+            "s-kpl-historical-finals-2017-2018"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "hurt-identity",
+          "type": "identity",
+          "summary": "Hurt对应姓名夏圣钦。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-historical-finals-2017-2018"
+          ],
+          "real_name": "夏圣钦"
+        },
+        {
+          "id": "hurt-2017-spring-final-lineup",
+          "type": "appearance",
+          "summary": "KPL官方回顾将Hurt列入QGhappy夺得2017 KPL春季赛冠军时的冠军首发信息；回顾没有提供具体比赛日。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-historical-finals-2017-2018"
+          ],
+          "event_year": 2017,
+          "season": "2017 KPL春季赛总决赛",
+          "competition_type": "KPL_league",
+          "competition_name": "2017 KPL春季赛总决赛",
+          "match": "QGhappy vs AG超玩会",
+          "team_at_event": "QGhappy",
+          "evidence_kind": "post_event_champion_starting_lineup",
+          "date_meaning": "官方回顾只支持赛季和总决赛年份，不填具体比赛日"
+        },
+        {
+          "id": "hurt-2017-spring-title",
+          "type": "award",
+          "summary": "KPL官方回顾将Hurt列入QGhappy的2017 KPL春季赛冠军首发。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-historical-finals-2017-2018"
+          ],
+          "event_year": 2017,
+          "season": "2017 KPL春季赛",
+          "competition_type": "KPL_league",
+          "competition_name": "2017 KPL春季赛",
+          "team_at_event": "QGhappy"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "verified",
+        "evidence_fact_ids": [
+          "hurt-2017-spring-final-lineup"
+        ]
+      },
+      "unknowns": []
+    },
+    {
+      "id": "jiguang",
+      "display_name": "极光",
+      "aliases": [
+        {
+          "text": "周文强",
+          "source_ids": [
+            "s-hero-2026-annual-finals-jiguang-loan"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "jiguang-identity-2026-annual-finals-roster",
+          "type": "identity",
+          "real_name": "周文强",
+          "summary": "2026年总决赛官方名单将选手极光对应姓名列为周文强。",
+          "verified": true,
+          "source_ids": [
+            "s-hero-2026-annual-finals-jiguang-loan"
+          ]
+        },
+        {
+          "id": "jiguang-2026-annual-finals-roster",
+          "type": "roster_listing",
+          "summary": "官方资料确认极光被列入南通Hero久竞2026年KPL年度总决赛参赛名单。",
+          "verified": true,
+          "source_ids": [
+            "s-hero-2026-annual-finals-jiguang-loan"
+          ],
+          "event_date": "2026-09-19",
+          "season": "2026 KPL年度总决赛",
+          "competition_type": "KPL_annual_finals",
+          "competition_name": "2026 KPL年度总决赛",
+          "team_at_event": "南通Hero久竞",
+          "roster_kind": "annual_finals_roster",
+          "date_meaning": "官方名单或租借公告发布日期；列入名单不代表实际登场。"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "pending",
+        "evidence_fact_ids": []
+      },
+      "unknowns": [
+        "目前只有2026年度总决赛名单证据；KPL正赛实际登场仍需独立核实。"
+      ]
+    },
+    {
+      "id": "jinyu",
+      "display_name": "今屿",
+      "aliases": [
+        {
+          "text": "徐翔宇",
+          "source_ids": [
+            "s-2024-nominees"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "jinyu-identity",
+          "type": "identity",
+          "real_name": "徐翔宇",
+          "summary": "今屿对应姓名徐翔宇。",
+          "verified": true,
+          "source_ids": [
+            "s-2024-nominees"
+          ]
+        },
+        {
+          "id": "jinyu-2024-nomination",
+          "type": "award",
+          "summary": "入围2024年度最佳阵容打野候选。",
+          "verified": true,
+          "source_ids": [
+            "s-2024-nominees"
+          ],
+          "event_date": "2024-12-26",
+          "role_at_nomination": "打野",
+          "nomination_only": true
+        },
+        {
+          "id": "jinyu-2020-kpl-debut-year",
+          "type": "debut",
+          "summary": "狼队官方两周年回顾确认今屿在2020年登场KPL。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-jinyu-20201111-debut-anniversary"
+          ],
+          "event_year": 2020,
+          "season": "2020 KPL赛季",
+          "competition_type": "KPL_league",
+          "competition_name": "KPL联赛",
+          "date_meaning": "俱乐部周年回顾支持登场年份；不据此补具体比赛日期"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "verified",
+        "evidence_fact_ids": [
+          "jinyu-2020-kpl-debut-year"
+        ]
+      },
+      "unknowns": [
+        "完整生涯与转会链尚未补齐",
+        "当前战队与当前角色未核实",
+        "尚未建立完整别名表"
+      ]
+    },
+    {
+      "id": "jiucheng",
+      "display_name": "久诚",
+      "aliases": [
+        {
+          "text": "曹志顺",
+          "source_ids": [
+            "s-memories-20261002"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "jiucheng-identity",
+          "type": "identity",
+          "real_name": "曹志顺",
+          "summary": "久诚对应姓名曹志顺。",
+          "verified": true,
+          "source_ids": [
+            "s-memories-20261002"
+          ]
+        },
+        {
+          "id": "jiucheng-2018-play",
+          "type": "appearance",
+          "summary": "官方十周年回顾记载2018年在KPL以中路选手身份参赛。",
+          "verified": true,
+          "source_ids": [
+            "s-memories-20261002"
+          ],
+          "event_year": 2018,
+          "date_precision": "year",
+          "role_at_event": "中路",
+          "competition_type": "KPL_league"
+        },
+        {
+          "id": "jiucheng-20261002-memory",
+          "type": "award",
+          "summary": "在官方十周年评选中被列为2018年度记忆人物；该评选涵盖联赛与杯赛。",
+          "verified": true,
+          "source_ids": [
+            "s-memories-20261002"
+          ],
+          "event_date": "2026-10-02",
+          "represented_year": 2018,
+          "event_name": "KPL十周年年度记忆人物评选"
+        },
+        {
+          "id": "jiucheng-20190113-winter-cup-fmvp",
+          "type": "award",
+          "summary": "获得冬季冠军杯FMVP；南京Hero久竞于2019年1月13日捧起首座冰凤凰杯。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-cup-history-20250108"
+          ],
+          "event_date": "2019-01-13",
+          "competition_type": "KPL_cup",
+          "competition_name": "王者荣耀冬季冠军杯"
+        },
+        {
+          "id": "jiucheng-2018-spring-final-lineup",
+          "type": "appearance",
+          "summary": "KPL官方回顾将久诚列入Hero久竞夺得2018 KPL春季赛冠军时的冠军首发信息；回顾没有提供具体比赛日。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-historical-finals-2017-2018"
+          ],
+          "event_year": 2018,
+          "season": "2018 KPL春季赛总决赛",
+          "competition_type": "KPL_league",
+          "competition_name": "2018 KPL春季赛总决赛",
+          "match": "Hero久竞 vs EDG.M",
+          "team_at_event": "Hero久竞",
+          "evidence_kind": "post_event_champion_starting_lineup",
+          "date_meaning": "官方回顾只支持赛季和总决赛年份，不填具体比赛日"
+        },
+        {
+          "id": "jiucheng-2018-spring-final-mvp",
+          "type": "award",
+          "summary": "KPL官方回顾确认久诚获得2018 KPL春季赛总决赛MVP；Hero久竞击败EDG.M夺冠。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-historical-finals-2017-2018"
+          ],
+          "event_year": 2018,
+          "season": "2018 KPL春季赛",
+          "competition_type": "KPL_league",
+          "competition_name": "2018 KPL春季赛总决赛",
+          "team_at_event": "Hero久竞"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "verified",
+        "evidence_fact_ids": [
+          "jiucheng-2018-play",
+          "jiucheng-2018-spring-final-lineup"
+        ]
+      },
+      "unknowns": [
+        "完整生涯与转会链尚未补齐",
+        "当前战队与当前角色未核实",
+        "尚未建立完整别名表"
+      ]
+    },
+    {
+      "id": "jiuku",
+      "display_name": "久酷",
+      "aliases": [
+        {
+          "text": "王滔",
+          "source_ids": [
+            "s-2024-nominees"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "jiuku-identity",
+          "type": "identity",
+          "real_name": "王滔",
+          "summary": "久酷对应姓名王滔。",
+          "verified": true,
+          "source_ids": [
+            "s-2024-nominees"
+          ]
+        },
+        {
+          "id": "jiuku-2024-nomination",
+          "type": "award",
+          "summary": "入围2024年度最佳阵容游走候选。",
+          "verified": true,
+          "source_ids": [
+            "s-2024-nominees"
+          ],
+          "event_date": "2024-12-26",
+          "role_at_nomination": "游走",
+          "nomination_only": true
+        },
+        {
+          "id": "jiuku-2021-spring-final",
+          "type": "appearance",
+          "summary": "KPL官方总决赛回顾记录久酷使用后羿、伽罗输出，并以黄忠拿到三杀。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-20210703-spring-final"
+          ],
+          "event_year": 2021,
+          "season": "2021 KPL春季赛总决赛",
+          "competition_type": "KPL_league",
+          "competition_name": "2021 KPL春季赛总决赛",
+          "team_at_event": "南京Hero久竞",
+          "hero_at_event": "后羿、伽罗、黄忠"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "verified",
+        "evidence_fact_ids": [
+          "jiuku-2021-spring-final"
+        ]
+      },
+      "unknowns": [
+        "完整生涯与转会链尚未补齐",
+        "当前战队与当前角色未核实",
+        "尚未建立完整别名表"
+      ]
+    },
+    {
+      "id": "juhao",
+      "display_name": "句号",
+      "aliases": [
+        {
+          "text": "何伟嘉",
+          "source_ids": [
+            "s-wb-ksg-20250619"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "juhao-identity",
+          "type": "identity",
+          "real_name": "何伟嘉",
+          "summary": "句号对应姓名何伟嘉。",
+          "verified": true,
+          "source_ids": [
+            "s-wb-ksg-20250619"
+          ]
+        },
+        {
+          "id": "juhao-20250619-g4",
+          "type": "appearance",
+          "summary": "第四局约5分钟以裴擒虎击杀苏烈。",
+          "verified": true,
+          "source_ids": [
+            "s-wb-ksg-20250619"
+          ],
+          "season": "2025KPL夏季赛",
+          "event_date": "2025-06-19",
+          "match": "北京WB vs 苏州KSG",
+          "game": 4,
+          "team_at_event": "苏州KSG",
+          "hero_at_event": "裴擒虎",
+          "competition_type": "KPL_league"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "verified",
+        "evidence_fact_ids": [
+          "juhao-20250619-g4"
+        ]
+      },
+      "unknowns": [
+        "完整生涯与转会链尚未补齐",
+        "当前战队与当前角色未核实",
+        "尚未建立完整别名表"
+      ]
+    },
+    {
+      "id": "liangyu",
+      "display_name": "亮宇",
+      "aliases": [
+        {
+          "text": "陈亮宇",
+          "source_ids": [
+            "s-tes-2026-annual-finals-liangyu-loan"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "liangyu-identity-2026-annual-finals-roster",
+          "type": "identity",
+          "real_name": "陈亮宇",
+          "summary": "2026年总决赛官方名单将选手亮宇对应姓名列为陈亮宇。",
+          "verified": true,
+          "source_ids": [
+            "s-tes-2026-annual-finals-liangyu-loan"
+          ]
+        },
+        {
+          "id": "liangyu-2026-annual-finals-roster",
+          "type": "roster_listing",
+          "summary": "官方资料确认亮宇被列入长沙TES.A2026年KPL年度总决赛参赛名单。",
+          "verified": true,
+          "source_ids": [
+            "s-tes-2026-annual-finals-liangyu-loan"
+          ],
+          "event_date": "2026-09-20",
+          "season": "2026 KPL年度总决赛",
+          "competition_type": "KPL_annual_finals",
+          "competition_name": "2026 KPL年度总决赛",
+          "team_at_event": "长沙TES.A",
+          "roster_kind": "annual_finals_roster",
+          "date_meaning": "官方名单或租借公告发布日期；列入名单不代表实际登场。"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "pending",
+        "evidence_fact_ids": []
+      },
+      "unknowns": [
+        "目前只有2026年度总决赛名单证据；KPL正赛实际登场仍需独立核实。"
+      ]
+    },
+    {
+      "id": "liulang",
+      "display_name": "流浪",
+      "aliases": [
+        {
+          "text": "张恒",
+          "source_ids": [
+            "s-2024-nominees"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "liulang-identity",
+          "type": "identity",
+          "real_name": "张恒",
+          "summary": "流浪对应姓名张恒。",
+          "verified": true,
+          "source_ids": [
+            "s-2024-nominees"
+          ]
+        },
+        {
+          "id": "liulang-2024-nomination",
+          "type": "award",
+          "summary": "入围2024年度最佳阵容中路候选。",
+          "verified": true,
+          "source_ids": [
+            "s-2024-nominees"
+          ],
+          "event_date": "2024-12-26",
+          "role_at_nomination": "中路",
+          "nomination_only": true
+        },
+        {
+          "id": "liulang-20240331-stats",
+          "type": "appearance",
+          "summary": "出现在官方当天赛果统计，记录为当日分均伤害TOP1；具体对局待补。",
+          "verified": true,
+          "source_ids": [
+            "s-daily-20240331"
+          ],
+          "season": "2024KPL春季赛",
+          "event_date": "2024-03-31",
+          "team_at_event": "苏州KSG",
+          "evidence_kind": "daily_played_statistics",
+          "competition_type": "KPL_league"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "verified",
+        "evidence_fact_ids": [
+          "liulang-20240331-stats"
+        ]
+      },
+      "unknowns": [
+        "完整生涯与转会链尚未补齐",
+        "当前战队与当前角色未核实",
+        "尚未建立完整别名表"
+      ]
+    },
+    {
+      "id": "luobo",
+      "display_name": "萝卜",
+      "aliases": [
+        {
+          "text": "陈佳鸿",
+          "source_ids": [
+            "s-wb-ksg-20250619"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "luobo-identity",
+          "type": "identity",
+          "real_name": "陈佳鸿",
+          "summary": "萝卜对应姓名陈佳鸿。",
+          "verified": true,
+          "source_ids": [
+            "s-wb-ksg-20250619"
+          ]
+        },
+        {
+          "id": "luobo-20250619-g4",
+          "type": "appearance",
+          "summary": "第四局约7分钟以姬小满配合妖刀击杀暃。",
+          "verified": true,
+          "source_ids": [
+            "s-wb-ksg-20250619"
+          ],
+          "season": "2025KPL夏季赛",
+          "event_date": "2025-06-19",
+          "match": "北京WB vs 苏州KSG",
+          "game": 4,
+          "team_at_event": "苏州KSG",
+          "hero_at_event": "姬小满",
+          "competition_type": "KPL_league"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "verified",
+        "evidence_fact_ids": [
+          "luobo-20250619-g4"
+        ]
+      },
+      "unknowns": [
+        "完整生涯与转会链尚未补齐",
+        "当前战队与当前角色未核实",
+        "尚未建立完整别名表"
+      ]
+    },
+    {
+      "id": "menglan",
+      "display_name": "梦岚",
+      "aliases": [
+        {
+          "text": "彭俊岚",
+          "source_ids": [
+            "s-2024-nominees",
+            "s-ksg-2026-annual-finals-menglan-loan"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "menglan-identity",
+          "type": "identity",
+          "real_name": "彭俊岚",
+          "summary": "梦岚对应姓名彭俊岚。",
+          "verified": true,
+          "source_ids": [
+            "s-2024-nominees"
+          ]
+        },
+        {
+          "id": "menglan-2024-nomination",
+          "type": "award",
+          "summary": "入围2024年度最佳阵容发育路候选。",
+          "verified": true,
+          "source_ids": [
+            "s-2024-nominees"
+          ],
+          "event_date": "2024-12-26",
+          "role_at_nomination": "发育路",
+          "nomination_only": true
+        },
+        {
+          "id": "menglan-2020-kpl-debut-year",
+          "type": "debut",
+          "summary": "佛山DRG官方六周年回顾明确梦岚于2020年初登KPL赛场。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-menglan-20200919-debut-anniversary"
+          ],
+          "event_year": 2020,
+          "season": "2020 KPL赛季",
+          "competition_type": "KPL_league",
+          "competition_name": "KPL联赛",
+          "date_meaning": "俱乐部周年回顾支持登场年份；不推算具体比赛日期"
+        },
+        {
+          "id": "menglan-2026-annual-finals-roster",
+          "type": "roster_listing",
+          "summary": "官方资料确认梦岚被列入KSG2026年KPL年度总决赛参赛名单。",
+          "verified": true,
+          "source_ids": [
+            "s-ksg-2026-annual-finals-menglan-loan"
+          ],
+          "event_date": "2026-09-20",
+          "season": "2026 KPL年度总决赛",
+          "competition_type": "KPL_annual_finals",
+          "competition_name": "2026 KPL年度总决赛",
+          "team_at_event": "KSG",
+          "roster_kind": "annual_finals_roster",
+          "date_meaning": "官方名单或租借公告发布日期；列入名单不代表实际登场。"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "verified",
+        "evidence_fact_ids": [
+          "menglan-2020-kpl-debut-year"
+        ]
+      },
+      "unknowns": [
+        "完整生涯与转会链尚未补齐",
+        "当前战队与当前角色未核实",
+        "尚未建立完整别名表"
+      ]
+    },
+    {
+      "id": "menglei",
+      "display_name": "梦泪",
+      "aliases": [
+        {
+          "text": "肖闽辉",
+          "source_ids": [
+            "s-memories-20261002"
+          ]
+        },
+        {
+          "text": "梦之泪伤",
+          "source_ids": [
+            "s-memories-20261002"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "menglei-identity",
+          "type": "identity",
+          "real_name": "肖闽辉",
+          "summary": "梦泪对应姓名肖闽辉。",
+          "verified": true,
+          "source_ids": [
+            "s-memories-20261002"
+          ]
+        },
+        {
+          "id": "menglei-2016-play",
+          "type": "appearance",
+          "summary": "官方十周年回顾记载在2016首届KPL以韩信完成无兵线破水晶。具体对局和日期待补。",
+          "verified": true,
+          "source_ids": [
+            "s-memories-20261002"
+          ],
+          "event_year": 2016,
+          "date_precision": "year",
+          "hero_at_event": "韩信",
+          "competition_type": "KPL_league"
+        },
+        {
+          "id": "menglei-20261002-memory",
+          "type": "award",
+          "summary": "在官方十周年评选中被列为2016年度记忆人物；该评选涵盖联赛与杯赛。",
+          "verified": true,
+          "source_ids": [
+            "s-memories-20261002"
+          ],
+          "event_date": "2026-10-02",
+          "represented_year": 2016,
+          "event_name": "KPL十周年年度记忆人物评选"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "verified",
+        "evidence_fact_ids": [
+          "menglei-2016-play"
+        ]
+      },
+      "unknowns": [
+        "完整生涯与转会链尚未补齐",
+        "当前战队与当前角色未核实",
+        "尚未建立完整别名表"
+      ]
+    },
+    {
+      "id": "mengxi",
+      "display_name": "梦溪",
+      "aliases": [
+        {
+          "text": "李文宝",
+          "source_ids": [
+            "s-wb-ksg-20250619"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "mengxi-identity",
+          "type": "identity",
+          "real_name": "李文宝",
+          "summary": "梦溪对应姓名李文宝。",
+          "verified": true,
+          "source_ids": [
+            "s-wb-ksg-20250619"
+          ]
+        },
+        {
+          "id": "mengxi-20250619-g4",
+          "type": "appearance",
+          "summary": "第四局约1分钟以苏烈控制对手，配合队友取得击杀。",
+          "verified": true,
+          "source_ids": [
+            "s-wb-ksg-20250619"
+          ],
+          "season": "2025KPL夏季赛",
+          "event_date": "2025-06-19",
+          "match": "北京WB vs 苏州KSG",
+          "game": 4,
+          "team_at_event": "北京WB",
+          "hero_at_event": "苏烈",
+          "competition_type": "KPL_league"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "verified",
+        "evidence_fact_ids": [
+          "mengxi-20250619-g4"
+        ]
+      },
+      "unknowns": [
+        "完整生涯与转会链尚未补齐",
+        "当前战队与当前角色未核实",
+        "尚未建立完整别名表"
+      ]
+    },
+    {
+      "id": "mingzai",
+      "display_name": "明崽",
+      "aliases": [
+        {
+          "text": "戴家权",
+          "source_ids": [
+            "s-daily-20250608"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "mingzai-identity",
+          "type": "identity",
+          "real_name": "戴家权",
+          "summary": "明崽对应姓名戴家权。",
+          "verified": true,
+          "source_ids": [
+            "s-daily-20250608"
+          ]
+        },
+        {
+          "id": "mingzai-2025-aggregate",
+          "type": "appearance",
+          "summary": "官方首周回顾记录首周团战对双C伤害TOP1，证明本届已实际参赛；不推定具体登场日期。",
+          "verified": true,
+          "source_ids": [
+            "s-daily-20250608"
+          ],
+          "season": "2025KPL夏季赛",
+          "event_year": 2025,
+          "date_precision": "year",
+          "observed_on": "2025-06-08",
+          "team_at_event": "重庆狼队",
+          "evidence_kind": "positive_season_played_statistics",
+          "competition_type": "KPL_league"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "verified",
+        "evidence_fact_ids": [
+          "mingzai-2025-aggregate"
+        ]
+      },
+      "unknowns": [
+        "完整生涯与转会链尚未补齐",
+        "当前战队与当前角色未核实",
+        "尚未建立完整别名表"
+      ]
+    },
+    {
+      "id": "ningzhi",
+      "display_name": "柠栀",
+      "aliases": [
+        {
+          "text": "袁俊",
+          "source_ids": [
+            "s-kpl-historical-finals-2017-2018"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "ningzhi-identity",
+          "type": "identity",
+          "summary": "柠栀对应姓名袁俊。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-historical-finals-2017-2018"
+          ],
+          "real_name": "袁俊"
+        },
+        {
+          "id": "ningzhi-2018-spring-final-lineup",
+          "type": "appearance",
+          "summary": "KPL官方回顾将柠栀列入Hero久竞夺得2018 KPL春季赛冠军时的冠军首发信息；回顾没有提供具体比赛日。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-historical-finals-2017-2018"
+          ],
+          "event_year": 2018,
+          "season": "2018 KPL春季赛总决赛",
+          "competition_type": "KPL_league",
+          "competition_name": "2018 KPL春季赛总决赛",
+          "match": "Hero久竞 vs EDG.M",
+          "team_at_event": "Hero久竞",
+          "evidence_kind": "post_event_champion_starting_lineup",
+          "date_meaning": "官方回顾只支持赛季和总决赛年份，不填具体比赛日"
+        },
+        {
+          "id": "ningzhi-2018-spring-title",
+          "type": "award",
+          "summary": "KPL官方回顾将柠栀列入Hero久竞的2018 KPL春季赛冠军首发。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-historical-finals-2017-2018"
+          ],
+          "event_year": 2018,
+          "season": "2018 KPL春季赛",
+          "competition_type": "KPL_league",
+          "competition_name": "2018 KPL春季赛",
+          "team_at_event": "Hero久竞"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "verified",
+        "evidence_fact_ids": [
+          "ningzhi-2018-spring-final-lineup"
+        ]
+      },
+      "unknowns": []
+    },
+    {
+      "id": "nuanyang",
+      "display_name": "暖阳",
+      "aliases": [
+        {
+          "text": "林恒",
+          "source_ids": [
+            "s-wb-lgd-20260330",
+            "s-wb-2026-annual-finals-roster"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "nuanyang-identity",
+          "type": "identity",
+          "real_name": "林恒",
+          "summary": "暖阳对应姓名林恒。",
+          "verified": true,
+          "source_ids": [
+            "s-wb-lgd-20260330"
+          ]
+        },
+        {
+          "id": "nuanyang-20260330-g7",
+          "type": "appearance",
+          "summary": "第七局获得MVP，官方记录21分50秒抢下风暴龙王。",
+          "verified": true,
+          "source_ids": [
+            "s-wb-lgd-20260330"
+          ],
+          "season": "2026KPL春季赛",
+          "event_date": "2026-03-30",
+          "stage": "季后赛败者组第二轮",
+          "match": "北京WB vs 杭州LGD.NBW",
+          "game": 7,
+          "team_at_event": "北京WB",
+          "hero_at_event": "元流之子（坦克）",
+          "competition_type": "KPL_league"
+        },
+        {
+          "id": "nuanyang-20260314-g5",
+          "type": "appearance",
+          "summary": "第五局约10分30秒以暃抢到暗影暴君。",
+          "verified": true,
+          "source_ids": [
+            "s-wb-jdg-20260314"
+          ],
+          "season": "2026KPL春季赛",
+          "event_date": "2026-03-14",
+          "match": "北京WB vs 北京JDG",
+          "game": 5,
+          "team_at_event": "北京WB",
+          "hero_at_event": "暃",
+          "competition_type": "KPL_league"
+        },
+        {
+          "id": "nuanyang-20261002-memory",
+          "type": "award",
+          "summary": "在官方十周年评选中被列为2020年度记忆人物；该评选涵盖联赛与杯赛。",
+          "verified": true,
+          "source_ids": [
+            "s-memories-20261002"
+          ],
+          "event_date": "2026-10-02",
+          "represented_year": 2020,
+          "event_name": "KPL十周年年度记忆人物评选"
+        },
+        {
+          "id": "nuanyang-20200613-final-mvp",
+          "type": "award",
+          "summary": "获得2020 KPL春季赛总决赛MVP；TS击败成都AG超玩会夺冠。",
+          "verified": true,
+          "source_ids": [
+            "s-ts-20200613-anniversary"
+          ],
+          "event_date": "2020-06-13",
+          "season": "2020 KPL春季赛",
+          "competition_type": "KPL_league",
+          "competition_name": "2020 KPL春季赛总决赛",
+          "team_at_event": "TS"
+        },
+        {
+          "id": "nuanyang-2026-annual-finals-roster",
+          "type": "roster_listing",
+          "summary": "官方资料确认暖阳被列入北京WB2026年KPL年度总决赛参赛名单。",
+          "verified": true,
+          "source_ids": [
+            "s-wb-2026-annual-finals-roster"
+          ],
+          "event_date": "2026-09-21",
+          "season": "2026 KPL年度总决赛",
+          "competition_type": "KPL_annual_finals",
+          "competition_name": "2026 KPL年度总决赛",
+          "team_at_event": "北京WB",
+          "roster_kind": "annual_finals_roster",
+          "date_meaning": "官方名单或租借公告发布日期；列入名单不代表实际登场。"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "verified",
+        "evidence_fact_ids": [
+          "nuanyang-20260330-g7",
+          "nuanyang-20260314-g5"
+        ]
+      },
+      "unknowns": [
+        "完整生涯与转会链尚未补齐",
+        "当前战队与当前角色未核实",
+        "尚未建立完整别名表"
+      ]
+    },
+    {
+      "id": "nuoyan",
+      "display_name": "诺言",
+      "aliases": [
+        {
+          "text": "郭桂鑫",
+          "source_ids": [
+            "s-kpl-2019-spring-champions-20260615"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "nuoyan-20211109-weekly-highlight-lead",
+          "type": "appearance",
+          "summary": "媒体转载的KPL周精彩内容称诺言在该周重回赛场；原始官方战报尚未取得。",
+          "verified": false,
+          "source_ids": [
+            "s-chaofan-kpl-week-20211109"
+          ],
+          "event_year": 2021,
+          "season": "2021 KPL秋季赛常规赛第二轮第四周",
+          "competition_type": "KPL_league",
+          "competition_name": "2021 KPL秋季赛",
+          "date_meaning": "转载发布日期，不等同于选手实际出场日期"
+        },
+        {
+          "id": "nuoyan-2019-spring-identity",
+          "type": "identity",
+          "summary": "诺言对应姓名郭桂鑫。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-2019-spring-champions-20260615"
+          ],
+          "real_name": "郭桂鑫"
+        },
+        {
+          "id": "nuoyan-2019-spring-final-lineup",
+          "type": "appearance",
+          "summary": "KPL官方回顾将诺言列入eStarPro夺得2019 KPL春季赛冠军时的冠军首发。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-2019-spring-champions-20260615"
+          ],
+          "event_year": 2019,
+          "season": "2019 KPL春季赛总决赛",
+          "competition_type": "KPL_league",
+          "competition_name": "2019 KPL春季赛总决赛",
+          "match": "eStarPro vs RNG.M",
+          "team_at_event": "eStarPro",
+          "evidence_kind": "post_event_champion_starting_lineup",
+          "date_meaning": "官方回顾只支持赛季和总决赛年份，不填具体比赛日"
+        },
+        {
+          "id": "nuoyan-2019-spring-title",
+          "type": "award",
+          "summary": "随eStarPro获得2019 KPL春季赛冠军。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-2019-spring-champions-20260615"
+          ],
+          "event_year": 2019,
+          "season": "2019 KPL春季赛",
+          "competition_type": "KPL_league",
+          "competition_name": "2019 KPL春季赛",
+          "team_at_event": "eStarPro"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "verified",
+        "evidence_fact_ids": [
+          "nuoyan-2019-spring-final-lineup"
+        ]
+      },
+      "unknowns": []
+    },
+    {
+      "id": "qiancheng",
+      "display_name": "钎城",
+      "aliases": [
+        {
+          "text": "周诣涛",
+          "source_ids": [
+            "s-daily-20240331"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "qiancheng-identity",
+          "type": "identity",
+          "real_name": "周诣涛",
+          "summary": "钎城对应姓名周诣涛。",
+          "verified": true,
+          "source_ids": [
+            "s-daily-20240331"
+          ]
+        },
+        {
+          "id": "qiancheng-20240331-stats",
+          "type": "appearance",
+          "summary": "出现在官方当天赛果统计，记录为当日击杀数TOP1；具体对局待补。",
+          "verified": true,
+          "source_ids": [
+            "s-daily-20240331"
+          ],
+          "season": "2024KPL春季赛",
+          "event_date": "2024-03-31",
+          "team_at_event": "深圳DYG",
+          "evidence_kind": "daily_played_statistics",
+          "competition_type": "KPL_league"
+        },
+        {
+          "id": "qiancheng-20250608-stats",
+          "type": "appearance",
+          "summary": "出现在官方当天赛果统计，记录为当日战损比TOP1；具体对局待补。",
+          "verified": true,
+          "source_ids": [
+            "s-daily-20250608"
+          ],
+          "season": "2025KPL夏季赛",
+          "event_date": "2025-06-08",
+          "team_at_event": "深圳DYG",
+          "evidence_kind": "daily_played_statistics",
+          "competition_type": "KPL_league"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "verified",
+        "evidence_fact_ids": [
+          "qiancheng-20240331-stats",
+          "qiancheng-20250608-stats"
+        ]
+      },
+      "unknowns": [
+        "完整生涯与转会链尚未补齐",
+        "当前战队与当前角色未核实",
+        "尚未建立完整别名表"
+      ]
+    },
+    {
+      "id": "qianshi",
+      "display_name": "千世",
+      "aliases": [
+        {
+          "text": "周宽",
+          "source_ids": [
+            "s-ts-20200613-anniversary"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "qianshi-identity",
+          "type": "identity",
+          "summary": "千世对应姓名周宽。",
+          "verified": true,
+          "source_ids": [
+            "s-ts-20200613-anniversary"
+          ],
+          "real_name": "周宽"
+        },
+        {
+          "id": "qianshi-20200613-final",
+          "type": "appearance",
+          "summary": "KPL官方六周年回顾将千世列为TS的2020 KPL春季赛冠军首发。",
+          "verified": true,
+          "source_ids": [
+            "s-ts-20200613-anniversary"
+          ],
+          "event_date": "2020-06-13",
+          "season": "2020 KPL春季赛",
+          "competition_type": "KPL_league",
+          "competition_name": "2020 KPL春季赛总决赛",
+          "match": "TS vs 成都AG超玩会",
+          "team_at_event": "TS",
+          "evidence_kind": "post_event_champion_starting_lineup",
+          "date_meaning": "官方六周年回顾所指比赛日"
+        },
+        {
+          "id": "qianshi-2020-kpl-title",
+          "type": "award",
+          "summary": "随TS获得2020 KPL春季赛冠军。",
+          "verified": true,
+          "source_ids": [
+            "s-ts-20200613-anniversary"
+          ],
+          "event_date": "2020-06-13",
+          "season": "2020 KPL春季赛",
+          "competition_type": "KPL_league",
+          "competition_name": "2020 KPL春季赛",
+          "team_at_event": "TS"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "verified",
+        "evidence_fact_ids": [
+          "qianshi-20200613-final"
+        ]
+      },
+      "unknowns": [
+        "其他生涯经历待补一手来源。"
+      ]
+    },
+    {
+      "id": "qingrong",
+      "display_name": "清融",
+      "aliases": [
+        {
+          "text": "黄垚钦",
+          "source_ids": [
+            "s-wb-jdg-20260314"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "qingrong-identity",
+          "type": "identity",
+          "real_name": "黄垚钦",
+          "summary": "清融对应姓名黄垚钦。",
+          "verified": true,
+          "source_ids": [
+            "s-wb-jdg-20260314"
+          ]
+        },
+        {
+          "id": "qingrong-20260314-g5",
+          "type": "appearance",
+          "summary": "第五局以女娲获得MVP。",
+          "verified": true,
+          "source_ids": [
+            "s-wb-jdg-20260314"
+          ],
+          "season": "2026KPL春季赛",
+          "event_date": "2026-03-14",
+          "match": "北京WB vs 北京JDG",
+          "game": 5,
+          "team_at_event": "北京JDG",
+          "hero_at_event": "女娲",
+          "competition_type": "KPL_league"
+        },
+        {
+          "id": "qingrong-20261002-memory",
+          "type": "award",
+          "summary": "在官方十周年评选中被列为2021年度记忆人物；该评选涵盖联赛与杯赛。",
+          "verified": true,
+          "source_ids": [
+            "s-memories-20261002"
+          ],
+          "event_date": "2026-10-02",
+          "represented_year": 2021,
+          "event_name": "KPL十周年年度记忆人物评选"
+        },
+        {
+          "id": "qingrong-2020-winter-cup-fmvp",
+          "type": "award",
+          "summary": "KPL官方回顾确认清融为2020王者荣耀冬季冠军杯FMVP。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-qingrong-20211105"
+          ],
+          "event_year": 2020,
+          "competition_type": "KPL_cup",
+          "competition_name": "2020王者荣耀冬季冠军杯"
+        },
+        {
+          "id": "qingrong-2021-spring-final-mvp",
+          "type": "award",
+          "summary": "KPL官方回顾确认清融获得2021 KPL春季赛总决赛MVP。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-qingrong-20211105"
+          ],
+          "event_year": 2021,
+          "season": "2021 KPL春季赛",
+          "competition_type": "KPL_league",
+          "competition_name": "2021 KPL春季赛总决赛"
+        },
+        {
+          "id": "qingrong-2021-joined-estar",
+          "type": "team_history",
+          "summary": "KPL官方在2021 KPL秋季赛报道中称清融于本赛季加入武汉eStarPro。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-qingrong-20211105"
+          ],
+          "event_year": 2021,
+          "season": "2021 KPL秋季赛",
+          "team_at_event": "武汉eStarPro",
+          "competition_type": "KPL_league",
+          "competition_name": "2021 KPL秋季赛"
+        },
+        {
+          "id": "qingrong-20210123-winter-cup-fmvp",
+          "type": "award",
+          "summary": "南京Hero久竞获得冬季冠军杯冠军，清融获得该赛事FMVP。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-cup-history-20250108"
+          ],
+          "event_date": "2021-01-23",
+          "competition_type": "KPL_cup",
+          "competition_name": "王者荣耀冬季冠军杯"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "verified",
+        "evidence_fact_ids": [
+          "qingrong-20260314-g5"
+        ]
+      },
+      "unknowns": [
+        "完整生涯与转会链尚未补齐",
+        "当前战队与当前角色未核实",
+        "尚未建立完整别名表"
+      ]
+    },
+    {
+      "id": "qingyu",
+      "display_name": "轻语",
+      "aliases": [
+        {
+          "text": "谢欣臻",
+          "source_ids": [
+            "s-2024-nominees"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "qingyu-identity",
+          "type": "identity",
+          "real_name": "谢欣臻",
+          "summary": "轻语对应姓名谢欣臻。",
+          "verified": true,
+          "source_ids": [
+            "s-2024-nominees"
+          ]
+        },
+        {
+          "id": "qingyu-2024-nomination",
+          "type": "award",
+          "summary": "入围2024年度最佳阵容对抗路候选。",
+          "verified": true,
+          "source_ids": [
+            "s-2024-nominees"
+          ],
+          "event_date": "2024-12-26",
+          "role_at_nomination": "对抗路",
+          "nomination_only": true
+        },
+        {
+          "id": "qingyu-2023-kpl-debut-year",
+          "type": "debut",
+          "summary": "北京JDG官方三周年祝贺确认轻语已在2023年登场KPL。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-qingyu-20230615-debut-anniversary"
+          ],
+          "event_year": 2023,
+          "season": "2023 KPL赛季",
+          "competition_type": "KPL_league",
+          "competition_name": "KPL联赛",
+          "date_meaning": "俱乐部周年回顾支持登场年份；不推算具体比赛日期"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "verified",
+        "evidence_fact_ids": [
+          "qingyu-2023-kpl-debut-year"
+        ]
+      },
+      "unknowns": [
+        "完整生涯与转会链尚未补齐",
+        "当前战队与当前角色未核实",
+        "尚未建立完整别名表"
+      ]
+    },
+    {
+      "id": "runrun",
+      "display_name": "润润",
+      "aliases": [
+        {
+          "text": "蒋润",
+          "source_ids": [
+            "s-daily-20250608"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "runrun-identity",
+          "type": "identity",
+          "real_name": "蒋润",
+          "summary": "润润对应姓名蒋润。",
+          "verified": true,
+          "source_ids": [
+            "s-daily-20250608"
+          ]
+        },
+        {
+          "id": "runrun-2025-aggregate",
+          "type": "appearance",
+          "summary": "官方首周回顾记录首周参战支援次数TOP1，证明本届已实际参赛；不推定具体登场日期。",
+          "verified": true,
+          "source_ids": [
+            "s-daily-20250608"
+          ],
+          "season": "2025KPL夏季赛",
+          "event_year": 2025,
+          "date_precision": "year",
+          "observed_on": "2025-06-08",
+          "team_at_event": "常山UUG",
+          "evidence_kind": "positive_season_played_statistics",
+          "competition_type": "KPL_league"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "verified",
+        "evidence_fact_ids": [
+          "runrun-2025-aggregate"
+        ]
+      },
+      "unknowns": [
+        "完整生涯与转会链尚未补齐",
+        "当前战队与当前角色未核实",
+        "尚未建立完整别名表"
+      ]
+    },
+    {
+      "id": "shenren",
+      "display_name": "神人",
+      "aliases": [
+        {
+          "text": "马腾飞",
+          "source_ids": [
+            "s-ts-20200613-anniversary"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "shenren-identity",
+          "type": "identity",
+          "summary": "神人对应姓名马腾飞。",
+          "verified": true,
+          "source_ids": [
+            "s-ts-20200613-anniversary"
+          ],
+          "real_name": "马腾飞"
+        },
+        {
+          "id": "shenren-20200613-final",
+          "type": "appearance",
+          "summary": "KPL官方六周年回顾将神人列为TS的2020 KPL春季赛冠军首发。",
+          "verified": true,
+          "source_ids": [
+            "s-ts-20200613-anniversary"
+          ],
+          "event_date": "2020-06-13",
+          "season": "2020 KPL春季赛",
+          "competition_type": "KPL_league",
+          "competition_name": "2020 KPL春季赛总决赛",
+          "match": "TS vs 成都AG超玩会",
+          "team_at_event": "TS",
+          "evidence_kind": "post_event_champion_starting_lineup",
+          "date_meaning": "官方六周年回顾所指比赛日"
+        },
+        {
+          "id": "shenren-2020-kpl-title",
+          "type": "award",
+          "summary": "随TS获得2020 KPL春季赛冠军。",
+          "verified": true,
+          "source_ids": [
+            "s-ts-20200613-anniversary"
+          ],
+          "event_date": "2020-06-13",
+          "season": "2020 KPL春季赛",
+          "competition_type": "KPL_league",
+          "competition_name": "2020 KPL春季赛",
+          "team_at_event": "TS"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "verified",
+        "evidence_fact_ids": [
+          "shenren-20200613-final"
+        ]
+      },
+      "unknowns": [
+        "其他生涯经历待补一手来源。"
+      ]
+    },
+    {
+      "id": "shijiu",
+      "display_name": "诗酒",
+      "aliases": [
+        {
+          "text": "陈润之",
+          "source_ids": [
+            "s-ts-20200613-anniversary"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "shijiu-identity",
+          "type": "identity",
+          "summary": "诗酒对应姓名陈润之。",
+          "verified": true,
+          "source_ids": [
+            "s-ts-20200613-anniversary"
+          ],
+          "real_name": "陈润之"
+        },
+        {
+          "id": "shijiu-20200613-final",
+          "type": "appearance",
+          "summary": "KPL官方六周年回顾将诗酒列为TS的2020 KPL春季赛冠军首发。",
+          "verified": true,
+          "source_ids": [
+            "s-ts-20200613-anniversary"
+          ],
+          "event_date": "2020-06-13",
+          "season": "2020 KPL春季赛",
+          "competition_type": "KPL_league",
+          "competition_name": "2020 KPL春季赛总决赛",
+          "match": "TS vs 成都AG超玩会",
+          "team_at_event": "TS",
+          "evidence_kind": "post_event_champion_starting_lineup",
+          "date_meaning": "官方六周年回顾所指比赛日"
+        },
+        {
+          "id": "shijiu-2020-kpl-title",
+          "type": "award",
+          "summary": "随TS获得2020 KPL春季赛冠军。",
+          "verified": true,
+          "source_ids": [
+            "s-ts-20200613-anniversary"
+          ],
+          "event_date": "2020-06-13",
+          "season": "2020 KPL春季赛",
+          "competition_type": "KPL_league",
+          "competition_name": "2020 KPL春季赛",
+          "team_at_event": "TS"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "verified",
+        "evidence_fact_ids": [
+          "shijiu-20200613-final"
+        ]
+      },
+      "unknowns": [
+        "其他生涯经历待补一手来源。"
+      ]
+    },
+    {
+      "id": "tanran",
+      "display_name": "坦然",
+      "aliases": [],
+      "facts": [
+        {
+          "id": "tanran-20220903-final-g1",
+          "type": "appearance",
+          "summary": "以蒙恬承受团战伤害并参与守家，官方战报记录其在约16分钟团战后帮助队伍零换二。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-20220903-final-g1"
+          ],
+          "event_date": "2022-09-03",
+          "season": "2022 KPL夏季赛总决赛",
+          "competition_type": "KPL_league",
+          "competition_name": "2022 KPL夏季赛总决赛",
+          "match": "武汉eStarPro vs 重庆狼队",
+          "game": 1,
+          "team_at_event": "武汉eStarPro",
+          "hero_at_event": "蒙恬"
+        },
+        {
+          "id": "tanran-20230402-r2w4d5-g2",
+          "type": "appearance",
+          "summary": "获得该局MVP；约15分钟以猪八戒抢下暗影暴君，帮助武汉eStarPro打出零换三并推进水晶。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-20230402-r2w4d5-g2"
+          ],
+          "event_date": "2023-04-02",
+          "season": "2023 KPL春季赛常规赛第二轮W4D5",
+          "competition_type": "KPL_league",
+          "competition_name": "2023 KPL春季赛",
+          "match": "南京Hero久竞 vs 武汉eStarPro",
+          "game": 2,
+          "team_at_event": "武汉eStarPro",
+          "hero_at_event": "猪八戒",
+          "award_at_event": "单局MVP"
+        },
+        {
+          "id": "tanran-20220115-challenger-cup-fmvp",
+          "type": "award",
+          "summary": "武汉eStarPro获得挑战者杯冠军，坦然获得FMVP。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-cup-history-20250108"
+          ],
+          "event_date": "2022-01-15",
+          "competition_type": "KPL_cup",
+          "competition_name": "王者荣耀挑战者杯"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "verified",
+        "evidence_fact_ids": [
+          "tanran-20220903-final-g1",
+          "tanran-20230402-r2w4d5-g2"
+        ]
+      },
+      "unknowns": [
+        "本名或其他生涯节点待一手来源补证。"
+      ]
+    },
+    {
+      "id": "tao",
+      "display_name": "涛",
+      "aliases": [
+        {
+          "text": "应泽涛",
+          "source_ids": [
+            "s-wb-2026-annual-finals-roster"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "tao-identity-2026-annual-finals-roster",
+          "type": "identity",
+          "real_name": "应泽涛",
+          "summary": "2026年总决赛官方名单将选手涛对应姓名列为应泽涛。",
+          "verified": true,
+          "source_ids": [
+            "s-wb-2026-annual-finals-roster"
+          ]
+        },
+        {
+          "id": "tao-2026-annual-finals-roster",
+          "type": "roster_listing",
+          "summary": "官方资料确认涛被列入北京WB2026年KPL年度总决赛参赛名单。",
+          "verified": true,
+          "source_ids": [
+            "s-wb-2026-annual-finals-roster",
+            "s-wb-2026-annual-finals-tao-loan"
+          ],
+          "event_date": "2026-09-21",
+          "season": "2026 KPL年度总决赛",
+          "competition_type": "KPL_annual_finals",
+          "competition_name": "2026 KPL年度总决赛",
+          "team_at_event": "北京WB",
+          "roster_kind": "annual_finals_roster",
+          "date_meaning": "官方名单或租借公告发布日期；列入名单不代表实际登场。"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "pending",
+        "evidence_fact_ids": []
+      },
+      "unknowns": [
+        "目前只有2026年度总决赛名单证据；KPL正赛实际登场仍需独立核实。"
+      ]
+    },
+    {
+      "id": "tingyue",
+      "display_name": "听悦",
+      "aliases": [
+        {
+          "text": "吴佐",
+          "source_ids": [
+            "s-wb-2026-annual-finals-roster"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "tingyue-identity-2026-annual-finals-roster",
+          "type": "identity",
+          "real_name": "吴佐",
+          "summary": "2026年总决赛官方名单将选手听悦对应姓名列为吴佐。",
+          "verified": true,
+          "source_ids": [
+            "s-wb-2026-annual-finals-roster"
+          ]
+        },
+        {
+          "id": "tingyue-2026-annual-finals-roster",
+          "type": "roster_listing",
+          "summary": "官方资料确认听悦被列入北京WB2026年KPL年度总决赛参赛名单。",
+          "verified": true,
+          "source_ids": [
+            "s-wb-2026-annual-finals-roster"
+          ],
+          "event_date": "2026-09-21",
+          "season": "2026 KPL年度总决赛",
+          "competition_type": "KPL_annual_finals",
+          "competition_name": "2026 KPL年度总决赛",
+          "team_at_event": "北京WB",
+          "roster_kind": "annual_finals_roster",
+          "date_meaning": "官方名单或租借公告发布日期；列入名单不代表实际登场。"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "pending",
+        "evidence_fact_ids": []
+      },
+      "unknowns": [
+        "目前只有2026年度总决赛名单证据；KPL正赛实际登场仍需独立核实。"
+      ]
+    },
+    {
+      "id": "wanmo",
+      "display_name": "挽墨",
+      "aliases": [
+        {
+          "text": "骆雪岩",
+          "source_ids": [
+            "s-2024-nominees"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "wanmo-identity",
+          "type": "identity",
+          "real_name": "骆雪岩",
+          "summary": "挽墨对应姓名骆雪岩。",
+          "verified": true,
+          "source_ids": [
+            "s-2024-nominees"
+          ]
+        },
+        {
+          "id": "wanmo-2024-nomination",
+          "type": "award",
+          "summary": "入围2024年度最佳新锐选手候选。",
+          "verified": true,
+          "source_ids": [
+            "s-2024-nominees"
+          ],
+          "event_date": "2024-12-26",
+          "role_at_nomination": null,
+          "nomination_only": true
+        },
+        {
+          "id": "wanmo-2024-kpl-debut-year",
+          "type": "debut",
+          "summary": "RW侠官方二周年回顾给出挽墨2024至2026年的KPL登场周年区间，确认其2024年已登场。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-wanmo-20240614-debut-anniversary"
+          ],
+          "event_year": 2024,
+          "season": "2024 KPL赛季",
+          "competition_type": "KPL_league",
+          "competition_name": "KPL联赛",
+          "date_meaning": "俱乐部周年回顾支持登场年份；不推算具体比赛日期"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "verified",
+        "evidence_fact_ids": [
+          "wanmo-2024-kpl-debut-year"
+        ]
+      },
+      "unknowns": [
+        "完整生涯与转会链尚未补齐",
+        "当前战队与当前角色未核实",
+        "尚未建立完整别名表"
+      ]
+    },
+    {
+      "id": "wanwan",
+      "display_name": "皖皖",
+      "aliases": [
+        {
+          "text": "杜远航",
+          "source_ids": [
+            "s-2024-nominees"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "wanwan-identity",
+          "type": "identity",
+          "real_name": "杜远航",
+          "summary": "皖皖对应姓名杜远航。",
+          "verified": true,
+          "source_ids": [
+            "s-2024-nominees"
+          ]
+        },
+        {
+          "id": "wanwan-2024-nomination",
+          "type": "award",
+          "summary": "入围2024年度最佳新锐选手候选。",
+          "verified": true,
+          "source_ids": [
+            "s-2024-nominees"
+          ],
+          "event_date": "2024-12-26",
+          "role_at_nomination": null,
+          "nomination_only": true
+        },
+        {
+          "id": "wanwan-20240331-stats",
+          "type": "appearance",
+          "summary": "出现在官方当天赛果统计，记录为当日分均承伤TOP1；具体对局待补。",
+          "verified": true,
+          "source_ids": [
+            "s-daily-20240331"
+          ],
+          "season": "2024KPL春季赛",
+          "event_date": "2024-03-31",
+          "team_at_event": "佛山DRG",
+          "evidence_kind": "daily_played_statistics",
+          "competition_type": "KPL_league"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "verified",
+        "evidence_fact_ids": [
+          "wanwan-20240331-stats"
+        ]
+      },
+      "unknowns": [
+        "完整生涯与转会链尚未补齐",
+        "当前战队与当前角色未核实",
+        "尚未建立完整别名表"
+      ]
+    },
+    {
+      "id": "wuhuan",
+      "display_name": "无幻",
+      "aliases": [
+        {
+          "text": "朱俊",
+          "source_ids": [
+            "s-2024-nominees"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "wuhuan-identity",
+          "type": "identity",
+          "real_name": "朱俊",
+          "summary": "无幻对应姓名朱俊。",
+          "verified": true,
+          "source_ids": [
+            "s-2024-nominees"
+          ]
+        },
+        {
+          "id": "wuhuan-2024-nomination",
+          "type": "award",
+          "summary": "入围2024年度最佳新锐选手候选。",
+          "verified": true,
+          "source_ids": [
+            "s-2024-nominees"
+          ],
+          "event_date": "2024-12-26",
+          "role_at_nomination": null,
+          "nomination_only": true
+        },
+        {
+          "id": "wuhuan-2024-spring-regular-stats",
+          "type": "appearance",
+          "summary": "KPL官方2024春季赛常规赛统计列其S组对抗路个人数据；官方注明排名统计不计登场率低于40%的选手，支持其实际参加该届联赛。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-2024-spring-candidate-stats"
+          ],
+          "event_year": 2024,
+          "season": "2024 KPL春季赛常规赛（含卡位赛）",
+          "competition_type": "KPL_league",
+          "competition_name": "2024 KPL春季赛",
+          "stat_scope": "KPL官方2024春季赛常规赛候选与数据公告"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "verified",
+        "evidence_fact_ids": [
+          "wuhuan-2024-spring-regular-stats"
+        ]
+      },
+      "unknowns": [
+        "完整生涯与转会链尚未补齐",
+        "当前战队与当前角色未核实",
+        "尚未建立完整别名表"
+      ]
+    },
+    {
+      "id": "wuming",
+      "display_name": "无铭",
+      "aliases": [
+        {
+          "text": "张聪",
+          "source_ids": [
+            "s-kpl-2019-spring-champions-20260615"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "wuming-2019-spring-identity",
+          "type": "identity",
+          "summary": "无铭对应姓名张聪。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-2019-spring-champions-20260615"
+          ],
+          "real_name": "张聪"
+        },
+        {
+          "id": "wuming-2019-spring-final-lineup",
+          "type": "appearance",
+          "summary": "KPL官方回顾将无铭列入eStarPro夺得2019 KPL春季赛冠军时的冠军首发。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-2019-spring-champions-20260615"
+          ],
+          "event_year": 2019,
+          "season": "2019 KPL春季赛总决赛",
+          "competition_type": "KPL_league",
+          "competition_name": "2019 KPL春季赛总决赛",
+          "match": "eStarPro vs RNG.M",
+          "team_at_event": "eStarPro",
+          "evidence_kind": "post_event_champion_starting_lineup",
+          "date_meaning": "官方回顾只支持赛季和总决赛年份，不填具体比赛日"
+        },
+        {
+          "id": "wuming-2019-spring-title",
+          "type": "award",
+          "summary": "随eStarPro获得2019 KPL春季赛冠军。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-2019-spring-champions-20260615"
+          ],
+          "event_year": 2019,
+          "season": "2019 KPL春季赛",
+          "competition_type": "KPL_league",
+          "competition_name": "2019 KPL春季赛",
+          "team_at_event": "eStarPro"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "verified",
+        "evidence_fact_ids": [
+          "wuming-2019-spring-final-lineup"
+        ]
+      },
+      "unknowns": [
+        "其他生涯节点待补一手来源。"
+      ]
+    },
+    {
+      "id": "wuwei",
+      "display_name": "无畏",
+      "aliases": [
+        {
+          "text": "杨涛",
+          "source_ids": [
+            "s-wb-jdg-20260314"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "wuwei-identity",
+          "type": "identity",
+          "real_name": "杨涛",
+          "summary": "无畏对应姓名杨涛。",
+          "verified": true,
+          "source_ids": [
+            "s-wb-jdg-20260314"
+          ]
+        },
+        {
+          "id": "wuwei-20260314-g5",
+          "type": "appearance",
+          "summary": "第五局约4分钟以赵怀真击杀海月取得一血。",
+          "verified": true,
+          "source_ids": [
+            "s-wb-jdg-20260314"
+          ],
+          "season": "2026KPL春季赛",
+          "event_date": "2026-03-14",
+          "match": "北京WB vs 北京JDG",
+          "game": 5,
+          "team_at_event": "北京JDG",
+          "hero_at_event": "赵怀真",
+          "competition_type": "KPL_league"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "verified",
+        "evidence_fact_ids": [
+          "wuwei-20260314-g5"
+        ]
+      },
+      "unknowns": [
+        "完整生涯与转会链尚未补齐",
+        "当前战队与当前角色未核实",
+        "尚未建立完整别名表"
+      ]
+    },
+    {
+      "id": "xiangyu",
+      "display_name": "向鱼",
+      "aliases": [
+        {
+          "text": "蔡佑其",
+          "source_ids": [
+            "s-2024-nominees"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "xiangyu-identity",
+          "type": "identity",
+          "real_name": "蔡佑其",
+          "summary": "向鱼对应姓名蔡佑其。",
+          "verified": true,
+          "source_ids": [
+            "s-2024-nominees"
+          ]
+        },
+        {
+          "id": "xiangyu-2024-nomination",
+          "type": "award",
+          "summary": "入围2024年度最佳阵容中路候选。",
+          "verified": true,
+          "source_ids": [
+            "s-2024-nominees"
+          ],
+          "event_date": "2024-12-26",
+          "role_at_nomination": "中路",
+          "nomination_only": true
+        },
+        {
+          "id": "xiangyu-20241006-annual-final-w1d5-g3",
+          "type": "appearance",
+          "summary": "KPL官方战报记录向鱼在第三局使用安琪拉，2分20秒蹲草支援并参与拿下一血。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-20241006-annual-finals-w1d5-g3"
+          ],
+          "event_date": "2024-10-06",
+          "season": "2024 KPL年度总决赛擂台赛",
+          "competition_type": "KPL_annual_finals",
+          "competition_name": "2024 KPL年度总决赛擂台赛",
+          "match": "重庆狼队 2:1 杭州LGD.NBW（第三局）",
+          "team_at_event": "重庆狼队",
+          "hero_at_event": "安琪拉"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "verified",
+        "evidence_fact_ids": [
+          "xiangyu-20241006-annual-final-w1d5-g3"
+        ]
+      },
+      "unknowns": [
+        "完整生涯与转会链尚未补齐",
+        "当前战队与当前角色未核实",
+        "尚未建立完整别名表"
+      ]
+    },
+    {
+      "id": "xiaoa",
+      "display_name": "小A",
+      "aliases": [
+        {
+          "text": "杨荣鑫",
+          "source_ids": [
+            "s-2024-nominees",
+            "s-dyg-2026-annual-finals-xiaoa-loan"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "xiaoa-identity",
+          "type": "identity",
+          "real_name": "杨荣鑫",
+          "summary": "小A对应姓名杨荣鑫。",
+          "verified": true,
+          "source_ids": [
+            "s-2024-nominees"
+          ]
+        },
+        {
+          "id": "xiaoa-2024-nomination",
+          "type": "award",
+          "summary": "入围2024年度最佳阵容游走候选。",
+          "verified": true,
+          "source_ids": [
+            "s-2024-nominees"
+          ],
+          "event_date": "2024-12-26",
+          "role_at_nomination": "游走",
+          "nomination_only": true
+        },
+        {
+          "id": "xiaoa-2025-spring-regular-appearance",
+          "type": "appearance",
+          "summary": "KPL官方将小A（杨荣鑫）列入2025春季赛最佳游走候选，并说明候选人赛季及分路出场率均须达到40%，确认其实际参加该届联赛。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-2025-spring-candidate-stats"
+          ],
+          "event_year": 2025,
+          "season": "2025 KPL春季赛",
+          "competition_type": "KPL_league",
+          "competition_name": "2025 KPL春季赛",
+          "stat_scope": "KPL官方最佳候选公告；整体及分路登场率门槛均为40%"
+        },
+        {
+          "id": "xiaoa-2026-annual-finals-roster",
+          "type": "roster_listing",
+          "summary": "官方资料确认小A被列入深圳DYG2026年KPL年度总决赛参赛名单。",
+          "verified": true,
+          "source_ids": [
+            "s-dyg-2026-annual-finals-xiaoa-loan"
+          ],
+          "event_date": "2026-09-17",
+          "season": "2026 KPL年度总决赛",
+          "competition_type": "KPL_annual_finals",
+          "competition_name": "2026 KPL年度总决赛",
+          "team_at_event": "深圳DYG",
+          "roster_kind": "annual_finals_roster",
+          "date_meaning": "官方名单或租借公告发布日期；列入名单不代表实际登场。"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "verified",
+        "evidence_fact_ids": [
+          "xiaoa-2025-spring-regular-appearance"
+        ]
+      },
+      "unknowns": [
+        "完整生涯与转会链尚未补齐",
+        "当前战队与当前角色未核实",
+        "尚未建立完整别名表"
+      ]
+    },
+    {
+      "id": "xiaobaixiong",
+      "display_name": "小白熊",
+      "aliases": [
+        {
+          "text": "程家辉",
+          "source_ids": [
+            "s-daily-20250608"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "xiaobaixiong-identity",
+          "type": "identity",
+          "real_name": "程家辉",
+          "summary": "小白熊对应姓名程家辉。",
+          "verified": true,
+          "source_ids": [
+            "s-daily-20250608"
+          ]
+        },
+        {
+          "id": "xiaobaixiong-2025-aggregate",
+          "type": "appearance",
+          "summary": "官方首周回顾记录首周团战击杀数TOP1，证明本届已实际参赛；不推定具体登场日期。",
+          "verified": true,
+          "source_ids": [
+            "s-daily-20250608"
+          ],
+          "season": "2025KPL夏季赛",
+          "event_year": 2025,
+          "date_precision": "year",
+          "observed_on": "2025-06-08",
+          "team_at_event": "杭州LGD.NBW",
+          "evidence_kind": "positive_season_played_statistics",
+          "competition_type": "KPL_league"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "verified",
+        "evidence_fact_ids": [
+          "xiaobaixiong-2025-aggregate"
+        ]
+      },
+      "unknowns": [
+        "完整生涯与转会链尚未补齐",
+        "当前战队与当前角色未核实",
+        "尚未建立完整别名表"
+      ]
+    },
+    {
+      "id": "xiaodu",
+      "display_name": "小度",
+      "aliases": [
+        {
+          "text": "古伟雄",
+          "source_ids": [
+            "s-daily-20240331"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "xiaodu-identity",
+          "type": "identity",
+          "summary": "小度对应姓名古伟雄。",
+          "verified": true,
+          "source_ids": [
+            "s-daily-20240331"
+          ],
+          "real_name": "古伟雄"
+        },
+        {
+          "id": "xiaodu-20240331-mvp-leader",
+          "type": "appearance",
+          "summary": "KPL官方赛果记录截至当日，小度以11次MVP与暖阳并列领跑2024春季赛MVP榜。",
+          "verified": true,
+          "source_ids": [
+            "s-daily-20240331"
+          ],
+          "event_date": "2024-03-31",
+          "season": "2024 KPL春季赛",
+          "competition_type": "KPL_league",
+          "competition_name": "2024 KPL春季赛",
+          "team_at_event": "佛山DRG",
+          "stat_scope": "截至2024-03-31的赛季累计榜单"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "verified",
+        "evidence_fact_ids": [
+          "xiaodu-20240331-mvp-leader"
+        ]
+      },
+      "unknowns": [
+        "KPL首秀日期、赛季前后队伍变动待补。"
+      ]
+    },
+    {
+      "id": "xiaohan",
+      "display_name": "小寒",
+      "aliases": [
+        {
+          "text": "金书瀚",
+          "source_ids": [
+            "s-wb-jdg-20260314"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "xiaohan-identity",
+          "type": "identity",
+          "real_name": "金书瀚",
+          "summary": "小寒对应姓名金书瀚。",
+          "verified": true,
+          "source_ids": [
+            "s-wb-jdg-20260314"
+          ]
+        },
+        {
+          "id": "xiaohan-20260314-g5",
+          "type": "appearance",
+          "summary": "第五局约16分40秒以公孙离侧面输出击杀敖隐。",
+          "verified": true,
+          "source_ids": [
+            "s-wb-jdg-20260314"
+          ],
+          "season": "2026KPL春季赛",
+          "event_date": "2026-03-14",
+          "match": "北京WB vs 北京JDG",
+          "game": 5,
+          "team_at_event": "北京JDG",
+          "hero_at_event": "公孙离",
+          "competition_type": "KPL_league"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "verified",
+        "evidence_fact_ids": [
+          "xiaohan-20260314-g5"
+        ]
+      },
+      "unknowns": [
+        "完整生涯与转会链尚未补齐",
+        "当前战队与当前角色未核实",
+        "尚未建立完整别名表"
+      ]
+    },
+    {
+      "id": "xiaojiu",
+      "display_name": "小久",
+      "aliases": [
+        {
+          "text": "阳文明",
+          "source_ids": [
+            "s-daily-20250608"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "xiaojiu-identity",
+          "type": "identity",
+          "real_name": "阳文明",
+          "summary": "小久对应姓名阳文明。",
+          "verified": true,
+          "source_ids": [
+            "s-daily-20250608"
+          ]
+        },
+        {
+          "id": "xiaojiu-2025-aggregate",
+          "type": "appearance",
+          "summary": "官方首周回顾记录首周团战击杀数TOP1，证明本届已实际参赛；不推定具体登场日期。",
+          "verified": true,
+          "source_ids": [
+            "s-daily-20250608"
+          ],
+          "season": "2025KPL夏季赛",
+          "event_year": 2025,
+          "date_precision": "year",
+          "observed_on": "2025-06-08",
+          "team_at_event": "杭州LGD.NBW",
+          "evidence_kind": "positive_season_played_statistics",
+          "competition_type": "KPL_league"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "verified",
+        "evidence_fact_ids": [
+          "xiaojiu-2025-aggregate"
+        ]
+      },
+      "unknowns": [
+        "完整生涯与转会链尚未补齐",
+        "当前战队与当前角色未核实",
+        "尚未建立完整别名表"
+      ]
+    },
+    {
+      "id": "xiaole",
+      "display_name": "小乐",
+      "aliases": [],
+      "facts": [
+        {
+          "id": "xiaole-2023-rookie-board-lead",
+          "type": "debut",
+          "summary": "KPL官方搜索索引将小乐列入2023年新锐榜，并说明新锐条件涉及当年首次登场；原帖正文未打开，暂不确认其正赛登场。",
+          "verified": false,
+          "source_ids": [
+            "s-kpl-rookie-board-2023-index"
+          ],
+          "event_year": 2023,
+          "season": "2023 KPL赛季",
+          "competition_type": "KPL_league",
+          "competition_name": "2023 KPL联赛",
+          "date_meaning": "待核赛季线索"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "pending",
+        "evidence_fact_ids": []
+      },
+      "unknowns": [
+        "姓名身份、实际登场对局及官方原帖正文待补。"
+      ]
+    },
+    {
+      "id": "xiaolou",
+      "display_name": "小楼",
+      "aliases": [
+        {
+          "text": "沈宇轩",
+          "source_ids": [
+            "s-daily-20250608"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "xiaolou-identity",
+          "type": "identity",
+          "real_name": "沈宇轩",
+          "summary": "小楼对应姓名沈宇轩。",
+          "verified": true,
+          "source_ids": [
+            "s-daily-20250608"
+          ]
+        },
+        {
+          "id": "xiaolou-2025-aggregate",
+          "type": "appearance",
+          "summary": "官方首周回顾记录赛季累计4次MVP，证明本届已实际参赛；不推定具体登场日期。",
+          "verified": true,
+          "source_ids": [
+            "s-daily-20250608"
+          ],
+          "season": "2025KPL夏季赛",
+          "event_year": 2025,
+          "date_precision": "year",
+          "observed_on": "2025-06-08",
+          "team_at_event": "武汉eStarPro",
+          "evidence_kind": "positive_season_played_statistics",
+          "competition_type": "KPL_league"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "verified",
+        "evidence_fact_ids": [
+          "xiaolou-2025-aggregate"
+        ]
+      },
+      "unknowns": [
+        "完整生涯与转会链尚未补齐",
+        "当前战队与当前角色未核实",
+        "尚未建立完整别名表"
+      ]
+    },
+    {
+      "id": "xiaomai",
+      "display_name": "小麦",
+      "aliases": [
+        {
+          "text": "彭超平",
+          "source_ids": [
+            "s-wb-jdg-20260314"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "xiaomai-identity",
+          "type": "identity",
+          "real_name": "彭超平",
+          "summary": "小麦对应姓名彭超平。",
+          "verified": true,
+          "source_ids": [
+            "s-wb-jdg-20260314"
+          ]
+        },
+        {
+          "id": "xiaomai-20260314-g5",
+          "type": "appearance",
+          "summary": "第五局约7分20秒以敖隐配合暖阳击杀公孙离。",
+          "verified": true,
+          "source_ids": [
+            "s-wb-jdg-20260314"
+          ],
+          "season": "2026KPL春季赛",
+          "event_date": "2026-03-14",
+          "match": "北京WB vs 北京JDG",
+          "game": 5,
+          "team_at_event": "北京WB",
+          "hero_at_event": "敖隐",
+          "competition_type": "KPL_league"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "verified",
+        "evidence_fact_ids": [
+          "xiaomai-20260314-g5"
+        ]
+      },
+      "unknowns": [
+        "完整生涯与转会链尚未补齐",
+        "当前战队与当前角色未核实",
+        "尚未建立完整别名表"
+      ]
+    },
+    {
+      "id": "xiaopang",
+      "display_name": "小胖",
+      "aliases": [
+        {
+          "text": "李达亨",
+          "source_ids": [
+            "s-2024-nominees"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "xiaopang-identity",
+          "type": "identity",
+          "real_name": "李达亨",
+          "summary": "小胖对应姓名李达亨。",
+          "verified": true,
+          "source_ids": [
+            "s-2024-nominees"
+          ]
+        },
+        {
+          "id": "xiaopang-2024-nomination",
+          "type": "award",
+          "summary": "入围2024年度最佳阵容打野候选。",
+          "verified": true,
+          "source_ids": [
+            "s-2024-nominees"
+          ],
+          "event_date": "2024-12-26",
+          "role_at_nomination": "打野",
+          "nomination_only": true
+        },
+        {
+          "id": "xiaopang-20250608-stats",
+          "type": "appearance",
+          "summary": "出现在官方当天赛果统计，记录为当日分均经济TOP1；具体对局待补。",
+          "verified": true,
+          "source_ids": [
+            "s-daily-20250608"
+          ],
+          "season": "2025KPL夏季赛",
+          "event_date": "2025-06-08",
+          "team_at_event": "重庆狼队",
+          "evidence_kind": "daily_played_statistics",
+          "competition_type": "KPL_league"
+        },
+        {
+          "id": "xiaopang-20261002-memory",
+          "type": "award",
+          "summary": "在官方十周年评选中被列为2023年度记忆人物；该评选涵盖联赛与杯赛。",
+          "verified": true,
+          "source_ids": [
+            "s-memories-20261002"
+          ],
+          "event_date": "2026-10-02",
+          "represented_year": 2023,
+          "event_name": "KPL十周年年度记忆人物评选"
+        },
+        {
+          "id": "xiaopang-20220903-final-g1",
+          "type": "appearance",
+          "summary": "1分50秒以镜击杀狄仁杰拿一血，并参与后续控龙与终结。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-20220903-final-g1"
+          ],
+          "event_date": "2022-09-03",
+          "season": "2022 KPL夏季赛总决赛",
+          "competition_type": "KPL_league",
+          "competition_name": "2022 KPL夏季赛总决赛",
+          "match": "武汉eStarPro vs 重庆狼队",
+          "game": 1,
+          "team_at_event": "重庆狼队",
+          "hero_at_event": "镜"
+        },
+        {
+          "id": "xiaopang-20231105-challenger-cup-fmvp",
+          "type": "award",
+          "summary": "重庆狼队获得挑战者杯冠军，小胖获得个人首个FMVP。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-cup-history-20250108"
+          ],
+          "event_date": "2023-11-05",
+          "competition_type": "KPL_cup",
+          "competition_name": "王者荣耀挑战者杯"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "verified",
+        "evidence_fact_ids": [
+          "xiaopang-20250608-stats",
+          "xiaopang-20220903-final-g1"
+        ]
+      },
+      "unknowns": [
+        "完整生涯与转会链尚未补齐",
+        "当前战队与当前角色未核实",
+        "尚未建立完整别名表"
+      ]
+    },
+    {
+      "id": "xiaoxuan",
+      "display_name": "小轩",
+      "aliases": [
+        {
+          "text": "王胜",
+          "source_ids": [
+            "s-daily-20250608"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "xiaoxuan-identity",
+          "type": "identity",
+          "real_name": "王胜",
+          "summary": "小轩对应姓名王胜。",
+          "verified": true,
+          "source_ids": [
+            "s-daily-20250608"
+          ]
+        },
+        {
+          "id": "xiaoxuan-20250608-stats",
+          "type": "appearance",
+          "summary": "出现在官方当天赛果统计，记录为当日击杀数及团战伤害TOP1；具体对局待补。",
+          "verified": true,
+          "source_ids": [
+            "s-daily-20250608"
+          ],
+          "season": "2025KPL夏季赛",
+          "event_date": "2025-06-08",
+          "team_at_event": "深圳DYG",
+          "evidence_kind": "daily_played_statistics",
+          "competition_type": "KPL_league"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "verified",
+        "evidence_fact_ids": [
+          "xiaoxuan-20250608-stats"
+        ]
+      },
+      "unknowns": [
+        "完整生涯与转会链尚未补齐",
+        "当前战队与当前角色未核实",
+        "尚未建立完整别名表"
+      ]
+    },
+    {
+      "id": "xiaoyi",
+      "display_name": "小义",
+      "aliases": [],
+      "facts": [
+        {
+          "id": "xiaoyi-2020-kpl-debut-season",
+          "type": "debut",
+          "summary": "KPL官方称2020 KPL秋季赛是小义从KPLGT来到KPL赛区后的第一个赛季；具体首秀日未确认。",
+          "verified": true,
+          "source_ids": [
+            "s-xiaoyi-20201125"
+          ],
+          "event_year": 2020,
+          "season": "2020 KPL秋季赛",
+          "competition_type": "KPL_league",
+          "competition_name": "2020 KPL秋季赛",
+          "date_meaning": "赛季范围；不是具体首秀日期"
+        },
+        {
+          "id": "xiaoyi-2020-autumn-regular-award",
+          "type": "award",
+          "summary": "获得2020 KPL秋季赛常规赛最佳选手；官方列其12次MVP、场均4.54次击杀，并记录其支援击杀率和场均10分钟对位经济差。",
+          "verified": true,
+          "source_ids": [
+            "s-xiaoyi-20201125"
+          ],
+          "event_year": 2020,
+          "season": "2020 KPL秋季赛常规赛",
+          "competition_type": "KPL_league",
+          "competition_name": "2020 KPL秋季赛常规赛",
+          "team_at_event": "DYG",
+          "stat_scope": "官方公告所述2020 KPL秋季赛常规赛"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "verified",
+        "evidence_fact_ids": [
+          "xiaoyi-2020-kpl-debut-season"
+        ]
+      },
+      "unknowns": [
+        "本名、KPL首秀具体日期和后续转会时间待一手来源补证。"
+      ]
+    },
+    {
+      "id": "xiaozai",
+      "display_name": "小崽",
+      "aliases": [
+        {
+          "text": "夏肇汛",
+          "source_ids": [
+            "s-wb-lgd-20260330"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "xiaozai-identity",
+          "type": "identity",
+          "real_name": "夏肇汛",
+          "summary": "小崽对应姓名夏肇汛。",
+          "verified": true,
+          "source_ids": [
+            "s-wb-lgd-20260330"
+          ]
+        },
+        {
+          "id": "xiaozai-20260330-g7",
+          "type": "appearance",
+          "summary": "第七局约11分20秒以鲁班大师控制多人，队伍团战2换3。",
+          "verified": true,
+          "source_ids": [
+            "s-wb-lgd-20260330"
+          ],
+          "season": "2026KPL春季赛",
+          "event_date": "2026-03-30",
+          "stage": "季后赛败者组第二轮",
+          "match": "北京WB vs 杭州LGD.NBW",
+          "game": 7,
+          "team_at_event": "杭州LGD.NBW",
+          "hero_at_event": "鲁班大师",
+          "competition_type": "KPL_league"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "verified",
+        "evidence_fact_ids": [
+          "xiaozai-20260330-g7"
+        ]
+      },
+      "unknowns": [
+        "完整生涯与转会链尚未补齐",
+        "当前战队与当前角色未核实",
+        "尚未建立完整别名表"
+      ]
+    },
+    {
+      "id": "xiaoze",
+      "display_name": "小泽",
+      "aliases": [
+        {
+          "text": "沈宇泽",
+          "source_ids": [
+            "s-daily-20250608"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "xiaoze-identity",
+          "type": "identity",
+          "real_name": "沈宇泽",
+          "summary": "小泽对应姓名沈宇泽。",
+          "verified": true,
+          "source_ids": [
+            "s-daily-20250608"
+          ]
+        },
+        {
+          "id": "xiaoze-20250608-stats",
+          "type": "appearance",
+          "summary": "出现在官方当天赛果统计，记录为当日控制时长TOP1；具体对局待补。",
+          "verified": true,
+          "source_ids": [
+            "s-daily-20250608"
+          ],
+          "season": "2025KPL夏季赛",
+          "event_date": "2025-06-08",
+          "team_at_event": "上海EDG.M",
+          "evidence_kind": "daily_played_statistics",
+          "competition_type": "KPL_league"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "verified",
+        "evidence_fact_ids": [
+          "xiaoze-20250608-stats"
+        ]
+      },
+      "unknowns": [
+        "完整生涯与转会链尚未补齐",
+        "当前战队与当前角色未核实",
+        "尚未建立完整别名表"
+      ]
+    },
+    {
+      "id": "xinghen",
+      "display_name": "星痕",
+      "aliases": [],
+      "facts": [
+        {
+          "id": "xinghen-2021-spring-final",
+          "type": "appearance",
+          "summary": "KPL官方总决赛回顾记录星痕使用廉颇开团并提供控制。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-20210703-spring-final"
+          ],
+          "event_year": 2021,
+          "season": "2021 KPL春季赛总决赛",
+          "competition_type": "KPL_league",
+          "competition_name": "2021 KPL春季赛总决赛",
+          "team_at_event": "南京Hero久竞",
+          "hero_at_event": "廉颇"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "verified",
+        "evidence_fact_ids": [
+          "xinghen-2021-spring-final"
+        ]
+      },
+      "unknowns": [
+        "真实姓名及更早首秀日期待一手来源补证。"
+      ]
+    },
+    {
+      "id": "xixi",
+      "display_name": "兮兮",
+      "aliases": [
+        {
+          "text": "张世豪",
+          "source_ids": [
+            "s-kpl-historical-finals-2017-2018"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "xixi-identity",
+          "type": "identity",
+          "summary": "兮兮对应姓名张世豪。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-historical-finals-2017-2018"
+          ],
+          "real_name": "张世豪"
+        },
+        {
+          "id": "xixi-2018-spring-final-lineup",
+          "type": "appearance",
+          "summary": "KPL官方回顾将兮兮列入Hero久竞夺得2018 KPL春季赛冠军时的冠军首发信息；回顾没有提供具体比赛日。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-historical-finals-2017-2018"
+          ],
+          "event_year": 2018,
+          "season": "2018 KPL春季赛总决赛",
+          "competition_type": "KPL_league",
+          "competition_name": "2018 KPL春季赛总决赛",
+          "match": "Hero久竞 vs EDG.M",
+          "team_at_event": "Hero久竞",
+          "evidence_kind": "post_event_champion_starting_lineup",
+          "date_meaning": "官方回顾只支持赛季和总决赛年份，不填具体比赛日"
+        },
+        {
+          "id": "xixi-2018-spring-title",
+          "type": "award",
+          "summary": "KPL官方回顾将兮兮列入Hero久竞的2018 KPL春季赛冠军首发。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-historical-finals-2017-2018"
+          ],
+          "event_year": 2018,
+          "season": "2018 KPL春季赛",
+          "competition_type": "KPL_league",
+          "competition_name": "2018 KPL春季赛",
+          "team_at_event": "Hero久竞"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "verified",
+        "evidence_fact_ids": [
+          "xixi-2018-spring-final-lineup"
+        ]
+      },
+      "unknowns": []
+    },
+    {
+      "id": "xuanran",
+      "display_name": "轩染",
+      "aliases": [
+        {
+          "text": "刘明",
+          "source_ids": [
+            "s-2024-nominees"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "xuanran-identity",
+          "type": "identity",
+          "real_name": "刘明",
+          "summary": "轩染对应姓名刘明。",
+          "verified": true,
+          "source_ids": [
+            "s-2024-nominees"
+          ]
+        },
+        {
+          "id": "xuanran-2024-nomination",
+          "type": "award",
+          "summary": "入围2024年度最佳阵容对抗路候选。",
+          "verified": true,
+          "source_ids": [
+            "s-2024-nominees"
+          ],
+          "event_date": "2024-12-26",
+          "role_at_nomination": "对抗路",
+          "nomination_only": true
+        },
+        {
+          "id": "xuanran-20250629-g3",
+          "type": "appearance",
+          "summary": "第三局约18分钟以狂铁参与残局输出。",
+          "verified": true,
+          "source_ids": [
+            "s-ag-drg-20250629"
+          ],
+          "season": "2025KPL夏季赛",
+          "event_date": "2025-06-29",
+          "match": "成都AG超玩会 vs 佛山DRG",
+          "game": 3,
+          "team_at_event": "成都AG超玩会",
+          "hero_at_event": "狂铁",
+          "game_clock_hint": "约18分钟",
+          "competition_type": "KPL_league"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "verified",
+        "evidence_fact_ids": [
+          "xuanran-20250629-g3"
+        ]
+      },
+      "unknowns": [
+        "完整生涯与转会链尚未补齐",
+        "当前战队与当前角色未核实",
+        "尚未建立完整别名表"
+      ]
+    },
+    {
+      "id": "yang",
+      "display_name": "YANG",
+      "aliases": [
+        {
+          "text": "万潇阳",
+          "source_ids": [
+            "s-kpl-historical-finals-2017-2018"
+          ]
+        },
+        {
+          "text": "老阳",
+          "source_ids": [
+            "s-kpl-historical-finals-2017-2018"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "yang-identity",
+          "type": "identity",
+          "summary": "YANG对应姓名万潇阳。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-historical-finals-2017-2018"
+          ],
+          "real_name": "万潇阳"
+        },
+        {
+          "id": "yang-2017-spring-final-lineup",
+          "type": "appearance",
+          "summary": "KPL官方回顾将YANG列入QGhappy夺得2017 KPL春季赛冠军时的冠军首发信息；回顾没有提供具体比赛日。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-historical-finals-2017-2018"
+          ],
+          "event_year": 2017,
+          "season": "2017 KPL春季赛总决赛",
+          "competition_type": "KPL_league",
+          "competition_name": "2017 KPL春季赛总决赛",
+          "match": "QGhappy vs AG超玩会",
+          "team_at_event": "QGhappy",
+          "evidence_kind": "post_event_champion_starting_lineup",
+          "date_meaning": "官方回顾只支持赛季和总决赛年份，不填具体比赛日"
+        },
+        {
+          "id": "yang-2017-spring-title",
+          "type": "award",
+          "summary": "KPL官方回顾将YANG列入QGhappy的2017 KPL春季赛冠军首发。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-historical-finals-2017-2018"
+          ],
+          "event_year": 2017,
+          "season": "2017 KPL春季赛",
+          "competition_type": "KPL_league",
+          "competition_name": "2017 KPL春季赛",
+          "team_at_event": "QGhappy"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "verified",
+        "evidence_fact_ids": [
+          "yang-2017-spring-final-lineup"
+        ]
+      },
+      "unknowns": []
+    },
+    {
+      "id": "yaodao",
+      "display_name": "妖刀",
+      "aliases": [
+        {
+          "text": "钟乐天",
+          "source_ids": [
+            "s-2024-nominees"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "yaodao-identity",
+          "type": "identity",
+          "real_name": "钟乐天",
+          "summary": "妖刀对应姓名钟乐天。",
+          "verified": true,
+          "source_ids": [
+            "s-2024-nominees"
+          ]
+        },
+        {
+          "id": "yaodao-2024-nomination",
+          "type": "award",
+          "summary": "入围2024年度最佳阵容发育路候选。",
+          "verified": true,
+          "source_ids": [
+            "s-2024-nominees"
+          ],
+          "event_date": "2024-12-26",
+          "role_at_nomination": "发育路",
+          "nomination_only": true
+        },
+        {
+          "id": "yaodao-20250619-g4",
+          "type": "appearance",
+          "summary": "第四局以狄仁杰获得MVP。",
+          "verified": true,
+          "source_ids": [
+            "s-wb-ksg-20250619"
+          ],
+          "season": "2025KPL夏季赛",
+          "event_date": "2025-06-19",
+          "match": "北京WB vs 苏州KSG",
+          "game": 4,
+          "team_at_event": "苏州KSG",
+          "hero_at_event": "狄仁杰",
+          "competition_type": "KPL_league"
+        },
+        {
+          "id": "yaodao-20220903-final-g1",
+          "type": "appearance",
+          "summary": "终局以公孙离持续换伞输出，随队推进并赢下第一局。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-20220903-final-g1"
+          ],
+          "event_date": "2022-09-03",
+          "season": "2022 KPL夏季赛总决赛",
+          "competition_type": "KPL_league",
+          "competition_name": "2022 KPL夏季赛总决赛",
+          "match": "武汉eStarPro vs 重庆狼队",
+          "game": 1,
+          "team_at_event": "重庆狼队",
+          "hero_at_event": "公孙离"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "verified",
+        "evidence_fact_ids": [
+          "yaodao-20250619-g4",
+          "yaodao-20220903-final-g1"
+        ]
+      },
+      "unknowns": [
+        "完整生涯与转会链尚未补齐",
+        "当前战队与当前角色未核实",
+        "尚未建立完整别名表"
+      ]
+    },
+    {
+      "id": "yinuo",
+      "display_name": "一诺",
+      "aliases": [
+        {
+          "text": "徐必成",
+          "source_ids": [
+            "s-2024-nominees"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "yinuo-identity",
+          "type": "identity",
+          "real_name": "徐必成",
+          "summary": "一诺对应姓名徐必成。",
+          "verified": true,
+          "source_ids": [
+            "s-2024-nominees"
+          ]
+        },
+        {
+          "id": "yinuo-2024-nomination",
+          "type": "award",
+          "summary": "入围2024年度最佳阵容发育路候选。",
+          "verified": true,
+          "source_ids": [
+            "s-2024-nominees"
+          ],
+          "event_date": "2024-12-26",
+          "role_at_nomination": "发育路",
+          "nomination_only": true
+        },
+        {
+          "id": "yinuo-20250629-g3",
+          "type": "appearance",
+          "summary": "第三局获得MVP，官方记录约21分钟取得三连决胜。",
+          "verified": true,
+          "source_ids": [
+            "s-ag-drg-20250629"
+          ],
+          "season": "2025KPL夏季赛",
+          "event_date": "2025-06-29",
+          "match": "成都AG超玩会 vs 佛山DRG",
+          "game": 3,
+          "team_at_event": "成都AG超玩会",
+          "hero_at_event": "元流之子",
+          "game_clock_hint": "约21分钟",
+          "competition_type": "KPL_league"
+        },
+        {
+          "id": "yinuo-20261002-memory",
+          "type": "award",
+          "summary": "在官方十周年评选中被列为2025年度记忆人物；该评选涵盖联赛与杯赛。",
+          "verified": true,
+          "source_ids": [
+            "s-memories-20261002"
+          ],
+          "event_date": "2026-10-02",
+          "represented_year": 2025,
+          "event_name": "KPL十周年年度记忆人物评选"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "verified",
+        "evidence_fact_ids": [
+          "yinuo-20250629-g3"
+        ]
+      },
+      "unknowns": [
+        "完整生涯与转会链尚未补齐",
+        "当前战队与当前角色未核实",
+        "尚未建立完整别名表"
+      ]
+    },
+    {
+      "id": "yisheng",
+      "display_name": "一笙",
+      "aliases": [
+        {
+          "text": "李自威",
+          "source_ids": [
+            "s-2024-nominees",
+            "s-wb-2026-annual-finals-roster"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "yisheng-identity",
+          "type": "identity",
+          "real_name": "李自威",
+          "summary": "一笙对应姓名李自威。",
+          "verified": true,
+          "source_ids": [
+            "s-2024-nominees"
+          ]
+        },
+        {
+          "id": "yisheng-2024-nomination",
+          "type": "award",
+          "summary": "入围2024年度最佳阵容游走候选。",
+          "verified": true,
+          "source_ids": [
+            "s-2024-nominees"
+          ],
+          "event_date": "2024-12-26",
+          "role_at_nomination": "游走",
+          "nomination_only": true
+        },
+        {
+          "id": "yisheng-2025-aggregate",
+          "type": "appearance",
+          "summary": "官方首周回顾记录赛季累计2次MVP，证明本届已实际参赛；不推定具体登场日期。",
+          "verified": true,
+          "source_ids": [
+            "s-daily-20250608"
+          ],
+          "season": "2025KPL夏季赛",
+          "event_year": 2025,
+          "date_precision": "year",
+          "observed_on": "2025-06-08",
+          "team_at_event": "重庆狼队",
+          "evidence_kind": "positive_season_played_statistics",
+          "competition_type": "KPL_league"
+        },
+        {
+          "id": "yisheng-2026-annual-finals-roster",
+          "type": "roster_listing",
+          "summary": "官方资料确认一笙被列入北京WB2026年KPL年度总决赛参赛名单。",
+          "verified": true,
+          "source_ids": [
+            "s-wb-2026-annual-finals-roster"
+          ],
+          "event_date": "2026-09-21",
+          "season": "2026 KPL年度总决赛",
+          "competition_type": "KPL_annual_finals",
+          "competition_name": "2026 KPL年度总决赛",
+          "team_at_event": "北京WB",
+          "roster_kind": "annual_finals_roster",
+          "date_meaning": "官方名单或租借公告发布日期；列入名单不代表实际登场。"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "verified",
+        "evidence_fact_ids": [
+          "yisheng-2025-aggregate"
+        ]
+      },
+      "unknowns": [
+        "完整生涯与转会链尚未补齐",
+        "当前战队与当前角色未核实",
+        "尚未建立完整别名表"
+      ]
+    },
+    {
+      "id": "zaodian",
+      "display_name": "早点",
+      "aliases": [
+        {
+          "text": "沈若飞",
+          "source_ids": [
+            "s-rw-2026-annual-finals-zaodian-loan"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "zaodian-identity-2026-annual-finals-roster",
+          "type": "identity",
+          "real_name": "沈若飞",
+          "summary": "2026年总决赛官方名单将选手早点对应姓名列为沈若飞。",
+          "verified": true,
+          "source_ids": [
+            "s-rw-2026-annual-finals-zaodian-loan"
+          ]
+        },
+        {
+          "id": "zaodian-2026-annual-finals-roster",
+          "type": "roster_listing",
+          "summary": "官方资料确认早点被列入济南RW侠2026年KPL年度总决赛参赛名单。",
+          "verified": true,
+          "source_ids": [
+            "s-rw-2026-annual-finals-zaodian-loan"
+          ],
+          "event_date": "2026-09-21",
+          "season": "2026 KPL年度总决赛",
+          "competition_type": "KPL_annual_finals",
+          "competition_name": "2026 KPL年度总决赛",
+          "team_at_event": "济南RW侠",
+          "roster_kind": "annual_finals_roster",
+          "date_meaning": "官方名单或租借公告发布日期；列入名单不代表实际登场。"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "pending",
+        "evidence_fact_ids": []
+      },
+      "unknowns": [
+        "目前只有2026年度总决赛名单证据；KPL正赛实际登场仍需独立核实。"
+      ]
+    },
+    {
+      "id": "zhaojue",
+      "display_name": "昭珏",
+      "aliases": [
+        {
+          "text": "屈万东",
+          "source_ids": [
+            "s-wb-2026-annual-finals-roster"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "zhaojue-identity-2026-annual-finals-roster",
+          "type": "identity",
+          "real_name": "屈万东",
+          "summary": "2026年总决赛官方名单将选手昭珏对应姓名列为屈万东。",
+          "verified": true,
+          "source_ids": [
+            "s-wb-2026-annual-finals-roster"
+          ]
+        },
+        {
+          "id": "zhaojue-2026-annual-finals-roster",
+          "type": "roster_listing",
+          "summary": "官方资料确认昭珏被列入北京WB2026年KPL年度总决赛参赛名单。",
+          "verified": true,
+          "source_ids": [
+            "s-wb-2026-annual-finals-roster"
+          ],
+          "event_date": "2026-09-21",
+          "season": "2026 KPL年度总决赛",
+          "competition_type": "KPL_annual_finals",
+          "competition_name": "2026 KPL年度总决赛",
+          "team_at_event": "北京WB",
+          "roster_kind": "annual_finals_roster",
+          "date_meaning": "官方名单或租借公告发布日期；列入名单不代表实际登场。"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "pending",
+        "evidence_fact_ids": []
+      },
+      "unknowns": [
+        "目前只有2026年度总决赛名单证据；KPL正赛实际登场仍需独立核实。"
+      ]
+    },
+    {
+      "id": "zhongyi",
+      "display_name": "钟意",
+      "aliases": [
+        {
+          "text": "陈家豪",
+          "source_ids": [
+            "s-2024-nominees"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "zhongyi-identity",
+          "type": "identity",
+          "real_name": "陈家豪",
+          "summary": "钟意对应姓名陈家豪。",
+          "verified": true,
+          "source_ids": [
+            "s-2024-nominees"
+          ]
+        },
+        {
+          "id": "zhongyi-2024-nomination",
+          "type": "award",
+          "summary": "入围2024年度最佳阵容打野候选。",
+          "verified": true,
+          "source_ids": [
+            "s-2024-nominees"
+          ],
+          "event_date": "2024-12-26",
+          "role_at_nomination": "打野",
+          "nomination_only": true
+        },
+        {
+          "id": "zhongyi-20250629-g3",
+          "type": "appearance",
+          "summary": "第三局约18分钟以夏侯惇参与残局输出。",
+          "verified": true,
+          "source_ids": [
+            "s-ag-drg-20250629"
+          ],
+          "season": "2025KPL夏季赛",
+          "event_date": "2025-06-29",
+          "match": "成都AG超玩会 vs 佛山DRG",
+          "game": 3,
+          "team_at_event": "成都AG超玩会",
+          "hero_at_event": "夏侯惇",
+          "game_clock_hint": "约18分钟",
+          "competition_type": "KPL_league"
+        },
+        {
+          "id": "zhongyi-20250111-challenger-cup-fmvp",
+          "type": "award",
+          "summary": "获得2024年王者荣耀挑战者杯决赛FMVP；官方复盘提及其决赛使用镜、大司命、铠、夏侯惇和宫本武藏。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-zhongyi-20250111-challenger-fmvp"
+          ],
+          "event_date": "2025-01-11",
+          "competition_type": "KPL_cup",
+          "competition_name": "2024年王者荣耀挑战者杯",
+          "date_meaning": "挑战者杯冠名年份为2024，决赛于2025-01-11完成"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "verified",
+        "evidence_fact_ids": [
+          "zhongyi-20250629-g3"
+        ]
+      },
+      "unknowns": [
+        "完整生涯与转会链尚未补齐",
+        "当前战队与当前角色未核实",
+        "尚未建立完整别名表"
+      ]
+    },
+    {
+      "id": "zimo",
+      "display_name": "梓墨",
+      "aliases": [
+        {
+          "text": "吴喆杰",
+          "source_ids": [
+            "s-wb-2026-annual-finals-roster"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "zimo-identity-2026-annual-finals-roster",
+          "type": "identity",
+          "real_name": "吴喆杰",
+          "summary": "2026年总决赛官方名单将选手梓墨对应姓名列为吴喆杰。",
+          "verified": true,
+          "source_ids": [
+            "s-wb-2026-annual-finals-roster"
+          ]
+        },
+        {
+          "id": "zimo-2026-annual-finals-roster",
+          "type": "roster_listing",
+          "summary": "官方资料确认梓墨被列入北京WB2026年KPL年度总决赛参赛名单。",
+          "verified": true,
+          "source_ids": [
+            "s-wb-2026-annual-finals-roster"
+          ],
+          "event_date": "2026-09-21",
+          "season": "2026 KPL年度总决赛",
+          "competition_type": "KPL_annual_finals",
+          "competition_name": "2026 KPL年度总决赛",
+          "team_at_event": "北京WB",
+          "roster_kind": "annual_finals_roster",
+          "date_meaning": "官方名单或租借公告发布日期；列入名单不代表实际登场。"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "pending",
+        "evidence_fact_ids": []
+      },
+      "unknowns": [
+        "目前只有2026年度总决赛名单证据；KPL正赛实际登场仍需独立核实。"
+      ]
+    },
+    {
+      "id": "ziyang",
+      "display_name": "子阳",
+      "aliases": [
+        {
+          "text": "向阳",
+          "source_ids": [
+            "s-daily-20240331"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "ziyang-identity",
+          "type": "identity",
+          "real_name": "向阳",
+          "summary": "子阳对应姓名向阳。",
+          "verified": true,
+          "source_ids": [
+            "s-daily-20240331"
+          ]
+        },
+        {
+          "id": "ziyang-20240331-stats",
+          "type": "appearance",
+          "summary": "出现在官方当天赛果统计，记录为当日战损比TOP1；具体对局待补。",
+          "verified": true,
+          "source_ids": [
+            "s-daily-20240331"
+          ],
+          "season": "2024KPL春季赛",
+          "event_date": "2024-03-31",
+          "team_at_event": "武汉eStarPro",
+          "evidence_kind": "daily_played_statistics",
+          "competition_type": "KPL_league"
+        },
+        {
+          "id": "ziyang-20220903-final-g1",
+          "type": "appearance",
+          "summary": "约8分50秒以东皇太一咬住吕布并完成互换。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-20220903-final-g1"
+          ],
+          "event_date": "2022-09-03",
+          "season": "2022 KPL夏季赛总决赛",
+          "competition_type": "KPL_league",
+          "competition_name": "2022 KPL夏季赛总决赛",
+          "match": "武汉eStarPro vs 重庆狼队",
+          "game": 1,
+          "team_at_event": "武汉eStarPro",
+          "hero_at_event": "东皇太一"
+        },
+        {
+          "id": "ziyang-20221006-challenger-cup-fmvp",
+          "type": "award",
+          "summary": "武汉eStarPro实现挑战者杯连冠，子阳获得游走位FMVP。",
+          "verified": true,
+          "source_ids": [
+            "s-kpl-cup-history-20250108"
+          ],
+          "event_date": "2022-10-06",
+          "competition_type": "KPL_cup",
+          "competition_name": "王者荣耀挑战者杯"
+        }
+      ],
+      "kpl_appearance": {
+        "status": "verified",
+        "evidence_fact_ids": [
+          "ziyang-20240331-stats",
+          "ziyang-20220903-final-g1"
+        ]
+      },
+      "unknowns": [
+        "完整生涯与转会链尚未补齐",
+        "当前战队与当前角色未核实",
+        "尚未建立完整别名表"
+      ]
+    }
+  ]
+}

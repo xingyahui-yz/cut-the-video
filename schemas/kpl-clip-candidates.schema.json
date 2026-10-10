@@ -1,0 +1,102 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kpl-clipper.local/schemas/kpl-clip-candidates.schema.json",
+  "title": "KPL Clip Candidates",
+  "description": "Evidence-backed candidate clips for a user-reviewed DaVinci Resolve timeline.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "content_type", "source_assets", "candidates", "analysis_notes"],
+  "properties": {
+    "schema_version": { "type": "integer", "const": 1 },
+    "content_type": {
+      "type": "string",
+      "enum": ["single_match_recap", "player_cross_match", "hero_operation", "team_or_stage"]
+    },
+    "source_assets": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/source_asset" }
+    },
+    "candidates": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/candidate" }
+    },
+    "analysis_notes": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  },
+  "$defs": {
+    "source_asset": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["asset_id", "sha256", "duration_sec", "game_number", "team_names"],
+      "properties": {
+        "asset_id": { "type": "string" },
+        "sha256": { "type": "string" },
+        "duration_sec": { "type": "number" },
+        "game_number": { "type": ["integer", "null"] },
+        "team_names": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["start_sec", "end_sec", "summary"],
+      "properties": {
+        "start_sec": { "type": "number" },
+        "end_sec": { "type": "number" },
+        "summary": { "type": "string" }
+      }
+    },
+    "story_fact": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["fact_id", "claim", "sources"],
+      "properties": {
+        "fact_id": { "type": "string" },
+        "claim": { "type": "string" },
+        "sources": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "participant": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["display_name", "team_name", "identity_status", "kb_player_id", "verified_story_facts"],
+      "properties": {
+        "display_name": { "type": "string" },
+        "team_name": { "type": "string" },
+        "identity_status": { "type": "string", "enum": ["confirmed", "uncertain", "unresolved"] },
+        "kb_player_id": { "type": ["string", "null"] },
+        "verified_story_facts": { "type": "array", "items": { "$ref": "#/$defs/story_fact" } }
+      }
+    },
+    "candidate": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "candidate_id", "asset_id", "source_start_sec", "source_end_sec", "timeline_order",
+        "review_status", "event_summary", "visual_evidence", "commentary_evidence",
+        "operation_quality_note", "match_significance_note", "participants", "uncertainties",
+        "review_reason", "exclusion_reason", "editor_note"
+      ],
+      "properties": {
+        "candidate_id": { "type": "string" },
+        "asset_id": { "type": "string" },
+        "source_start_sec": { "type": "number" },
+        "source_end_sec": { "type": "number" },
+        "timeline_order": { "type": "integer" },
+        "review_status": { "type": "string", "enum": ["selected", "needs_review", "not_selected"] },
+        "event_summary": { "type": "string" },
+        "visual_evidence": { "type": "array", "items": { "$ref": "#/$defs/evidence" } },
+        "commentary_evidence": { "type": "array", "items": { "$ref": "#/$defs/evidence" } },
+        "operation_quality_note": { "type": "string" },
+        "match_significance_note": { "type": "string" },
+        "participants": { "type": "array", "items": { "$ref": "#/$defs/participant" } },
+        "uncertainties": { "type": "array", "items": { "type": "string" } },
+        "review_reason": { "type": ["string", "null"] },
+        "exclusion_reason": { "type": ["string", "null"] },
+        "editor_note": { "type": ["string", "null"] }
+      }
+    }
+  }
+}

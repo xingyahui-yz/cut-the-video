@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kpl-clipper.local/schemas/kpl-clip-selection.schema.json",
+  "title": "KPL Clip Selection Decisions",
+  "description": "One review decision for every extracted KPL candidate.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["decisions", "analysis_notes"],
+  "properties": {
+    "decisions": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/decision" }
+    },
+    "analysis_notes": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  },
+  "$defs": {
+    "decision": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["candidate_id", "review_status", "selection_reason", "review_reason", "exclusion_reason"],
+      "properties": {
+        "candidate_id": { "type": "string" },
+        "review_status": { "type": "string", "enum": ["selected", "needs_review", "not_selected"] },
+        "selection_reason": { "type": ["string", "null"] },
+        "review_reason": { "type": ["string", "null"] },
+        "exclusion_reason": { "type": ["string", "null"] }
+      }
+    }
+  }
+}

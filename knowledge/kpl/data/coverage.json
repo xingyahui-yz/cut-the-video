@@ -1,0 +1,55 @@
+{
+  "as_of": "2026-10-04",
+  "scope": "2016年起至2026-10-04，所有历史上在KPL赛季联赛正赛或KPL年度总决赛实际登场的选手；两类赛事分别标注，杯赛与其他生涯事实另行分类。",
+  "expected_player_count": null,
+  "full_roster_verified": false,
+  "roster_listing_coverage": {
+    "complete": false,
+    "identity_dedup_complete": false,
+    "unresolved_gaps": [
+      "尚未逐季录入KPL联赛与年度总决赛官方大名单、单场名单和首发名单并按选手身份去重。",
+      "不同赛季和不同队伍中的同名、改名与转会关系尚未逐人复核。",
+      "大名单人数与实际登场人数分别统计；大名单或首发记录不能单独证明实际登场。"
+    ],
+    "season_batches": [
+      {
+        "competition_name": "2026 KPL年度总决赛",
+        "as_of": "2026-10-04",
+        "official_team_count": 12,
+        "groups": {
+          "大师组": 6,
+          "精英组": 6
+        },
+        "official_team_announcement_sources_found": 9,
+        "teams_with_full_named_roster_verified": 1,
+        "verified_roster_listing_facts": 14,
+        "known_distinct_players": 14,
+        "teams_with_fully_unread_roster_images": [
+          "重庆狼队（Fly仅由租借公告确认）",
+          "成都AG超玩会",
+          "北京JDG",
+          "广州TTG",
+          "KSG",
+          "长沙TES.A",
+          "上海EDG.M",
+          "杭州LGD.NBW",
+          "深圳DYG",
+          "济南RW侠",
+          "南通Hero久竞（极光仅由租借公告确认）"
+        ],
+        "unresolved_gaps": [
+          "北京WB官方正文完整列出7名选手；其余队伍目前仅确认官方租借公告提及的选手，完整名单仍需读取官方海报或可读的逐人公告。",
+          "官方名单只证明列名，不能替代KPL正赛实际登场证据。"
+        ]
+      }
+    ]
+  },
+  "unresolved_gaps": [
+    "尚未完成2016年至2026-10-04逐届KPL赛季联赛及年度总决赛的逐场实际登场名单枚举与身份去重。",
+    "官方动态数据页的完整历史记录尚未取得；注册名单、候选名单和赛前首发不能替代逐局登场记录。",
+    "当前补入多为可读取的一手赛果、荣誉或冠军回顾样本，不能据此推定各赛季参赛选手已完整。",
+    "早期赛季的ID改名、同名和俱乐部变更仍需逐条核对；部分新记录的本名、首秀日和转会时间未确认。",
+    "2025至2026-10-04的逐赛季逐场覆盖、退役状态及当前阵容尚未完成核验。",
+    "用户提供的《KPL十年编年史》仅提供代表选手和部分队伍阵容；其候选称呼及事迹线索未核实，不能替代逐季官方名单和逐场登场清册。"
+  ]
+}
